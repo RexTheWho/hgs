@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+    <object file="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" />
+    <network sync="spawn"/>
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData" />
+        <extension name="damage" class="UnitDamage" />
+        <extension name="base" class="Drill">
+            <var name="_active_effect_name"         value="effects/particles/equipment/apartment_saw/saw_active" />
+            <var name="is_saw"                      value="true" />
+			<var name="_disable_upgrades" value="true" />
+        </extension>
+        <extension name="interaction" class="MissionDoorDeviceInteractionExt">
+            <var name="tweak_data" value="apartment_saw" />
+			<var name="_interact_object" value="interact"/>
+        </extension>
+        <extension name="timer_gui" class="TimerGui">
+            <var name="_gui_object"             value="gui_panel" />
+            <var name="_jammed_tweak_data"      value="gen_int_saw_jammed" />
+            <var name="_upgrade_tweak_data"     value="gen_int_saw_upgrade" />
+            <var name="_start_event"            value="buzz_saw" />
+            <var name="_jam_event"              value="buzz_saw_jam" />
+            <var name="_resume_event"           value="buzz_saw_resume" />
+            <var name="_done_event"             value="buzz_saw_end" />
+            <var name="_can_jam"                value="true" />
+            <var name="_jam_times"              value="2" /> 
+            <var name="_gui_start"              value="prop_timer_saw_gui_start" />
+            <var name="_gui_working"            value="prop_timer_saw_gui_working" />
+            <var name="_gui_done"               value="prop_timer_saw_gui_done" />
+            <var name="_gui_malfunction"        value="prop_timer_saw_gui_malfunction" />
+        </extension>
+    </extensions>
+    <sounds>
+	<default_soundsource source="anim_saw_start_end"/>
+    </sounds>
+</unit>

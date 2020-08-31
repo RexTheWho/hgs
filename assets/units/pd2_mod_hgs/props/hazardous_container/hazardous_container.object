@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" orientation_object="rp_container" />
+	<sequence_manager file="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_container" />
+			<object name="c_container" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_contour" enabled="true" >
+			<lod_object name="lod_contour">
+                <object name="g_contour"		enabled="true"  lod="0" max_distance="450" />
+                <object name="g_contour_lod1"	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<object name="g_container" enabled="true" />
+	</graphics>
+</dynamic_object>

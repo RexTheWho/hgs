@@ -1,0 +1,50 @@
+<table>
+	<unit>
+		<sequence name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_solid'"		visibility="false"/>
+			<graphic_group name="'grp_contours'"	visibility="true"/>
+			<body enabled="true" name="'static_body'"/>
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+		</sequence>
+		
+		
+		<sequence name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_solid'"		visibility="false"/>
+			<graphic_group name="'grp_contours'"	visibility="false"/>
+			<body enabled="false" name="'static_body'"/>
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+		</sequence>
+		
+		
+		<sequence name="'interact'">
+			<run_sequence name="'first_interact'"/>
+			<graphic_group name="'grp_contours'"	visibility="false"/>
+			<function extension="'timer_gui'" function="'start'" param1="'300'"/>
+			<animation_group enabled="true" name="'anim_going_up'" speed="1/300" />
+		</sequence>
+		
+		
+		<sequence name="'first_interact'" once="true">
+			<graphic_group name="'grp_solid'"		visibility="true"/>
+			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
+			<animation_group enabled="true" name="'anim_saw_start_end'" from="0/30" speed="1" to="15/30"/>
+			<animation_group enabled="true" name="'anim_going_up'" from="0/30" speed="1/300" to="30/30"/>
+		</sequence>
+		
+		
+		<sequence name="'jammed_trigger'" triggable="true">
+			<animation_group enabled="true" name="'anim_going_up'" speed="0" />
+			<graphic_group name="'grp_contours'"	visibility="true"/>
+		</sequence>
+		
+		
+		<sequence name="'done'" triggable="true">
+			<function extension="'timer_gui'" function="'done'"/>
+		</sequence>
+		<sequence name="'timer_done'">
+			<animation_group enabled="true" name="'anim_saw_start_end'" from="15/30" speed="1" to="30/30"/>
+		</sequence>
+	</unit>
+</table>

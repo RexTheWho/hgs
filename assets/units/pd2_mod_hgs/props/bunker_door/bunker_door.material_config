@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mat_door" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture		file="units/pd2_dlc_berry/props/bry_prop_mountain_door/bry_prop_mountain_door_abandoned_df" />
+		<bump_normal_texture	file="units/pd2_dlc_berry/props/bry_prop_mountain_door/bry_prop_mountain_door_nm" />
+	</material>
+</materials>

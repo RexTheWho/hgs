@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import		file="bunker_saw_b.glb" type="gltf" create_objects="true"/>
+	<animation	file="bunker_saw_b.animation"/>
+</modelscript>

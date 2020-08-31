@@ -1,0 +1,41 @@
+	<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/bunker_door/bunker_door" orientation_object="rp_bunker_door" />
+	<sequence_manager file="units/pd2_mod_hgs/props/bunker_door/bunker_door" />
+	<animations>
+		<animation_group name="anim_door_open" >
+			<object name="anim_door_open" />
+			<object name="anim_door_handle" />
+		</animation_group>
+		<animation_group name="anim_door_fall" >
+			<object name="anim_door_fall" />
+			<object name="anim_pusher" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static_doorway" enabled="true" template="static">
+			<object name="c_box_001" collision_type="box" padding="-2.5" />
+			<object name="c_box_002" collision_type="box" padding="-2.5" />
+			<object name="c_box_003" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_anim_door" enabled="true" template="animated">
+			<object name="c_bunker_door" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_anim_pusher" enabled="false" template="animated_no_ray">
+			<object name="c_pusher" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_walk" enabled="false" template="mover_blocker">
+			<object name="c_doordown" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_bunker_door" enabled="true" material="steel" />
+		<decal_mesh name="g_bunker_frame" enabled="true" material="steel" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_bunker_door_handle"	enabled="true" />
+		<object name="g_bunker_door"		enabled="true" />
+		<object name="g_bunker_frame"		enabled="true" />
+	</graphics>
+</dynamic_object>

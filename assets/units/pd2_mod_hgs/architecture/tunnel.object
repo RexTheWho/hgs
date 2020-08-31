@@ -1,0 +1,35 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/architecture/architecture" orientation_object="rp_tunnel" />
+	<sequence_manager file="units/pd2_mod_hgs/architecture/tunnel" />
+	<bodies>
+		<body name="body_static_tunnel" enabled="true" template="static">
+			<object name="c_tunnel_001" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_002" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_003" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_004" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_005" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_006" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_007" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_008" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_009" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_010" collision_type="box" padding="-2.5" />
+			<object name="c_tunnel_011" collision_type="box" padding="-2.5" />
+			<object name="g_tunnel_wood" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_static_solid" enabled="false" template="static">
+			<object name="g_solid_wall" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_solid_wall"		enabled="true" material="stone" />
+		<decal_mesh name="g_tunnel"			enabled="true" material="stone" />
+		<decal_mesh name="g_tunnel_wood"	enabled="true" material="wood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_tunnel_wood"	enabled="true" />
+		<object name="g_tunnel"			enabled="true" />
+		<object name="g_solid_wall"		enabled="false" />
+	</graphics>
+</dynamic_object>

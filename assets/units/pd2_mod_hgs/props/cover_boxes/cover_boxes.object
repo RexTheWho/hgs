@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/cover_boxes/cover_boxes" orientation_object="rp_winch" />
+	<sequence_manager file="units/pd2_mod_hgs/props/cover_boxes/cover_boxes" />
+	<bodies>
+		<body name="body_static" enabled="false" template="static">
+			<object name="c_winch" collision_type="box" padding="-2.5" />
+		</body>	
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="c_winch" collision_type="box" padding="-2.5" />
+		</body>	
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_winch" enabled="false" material="steel" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_contour"		enabled="false" />
+		<object name="g_winch"			enabled="true" />
+		<object name="g_cable_slack"	enabled="false" />
+		<object name="g_cable_applied"	enabled="false" />
+	</graphics>
+</dynamic_object>

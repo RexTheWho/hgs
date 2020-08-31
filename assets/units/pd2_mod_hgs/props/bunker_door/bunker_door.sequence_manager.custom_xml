@@ -1,0 +1,16 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'play_anim_door_fall'" triggable="true">
+			<animation_group enabled="true" name="'anim_door_fall'" from="0/30" to="60/30" />
+			<sound action="'play'" event="'bar_plant_breaching_charge_finished'" object="'rp_bunker_door'" />
+			<sound action="'play'" event="'weld_door_hit_ground'" object="'rp_bunker_door'" start_time="30/30"/>
+			<body enabled="true" name="'body_anim_pusher'"/>
+			<body enabled="false" name="'body_anim_pusher'" start_time="60/30"/>
+			<body enabled="true" name="'body_walk'" start_time="60/30"/>
+			<effect name="'effects/payday2/particles/impacts/dirt_explosion_impact_pd2'" parent="'e_dust'" align="e_dust" start_time="60/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'play_anim_door_open'" triggable="true">
+			<animation_group enabled="true" name="'anim_door_open'" from="0/30" to="60/30" />
+		</sequence>
+	</unit>
+</table>

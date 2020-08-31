@@ -1,0 +1,23 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_contour'" visibility="true" />
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_contour'" visibility="false" />
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<graphic_group name="'grp_contour'" visibility="false" />
+			<object enabled="false" name="'g_container'"/>
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object enabled="true" name="'g_container'"/>
+			<body enabled="true" name="'body_static'"/>
+		</sequence>
+	</unit>
+</table>

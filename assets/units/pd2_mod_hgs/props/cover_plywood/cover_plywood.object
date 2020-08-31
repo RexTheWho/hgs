@@ -1,0 +1,55 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" orientation_object="rp_plywood" />
+	<sequence_manager file="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" />
+	<animations>
+		<animation_group name="anim_plyfall">
+			<object name="anim_plyfall_01" />
+			<object name="anim_plyfall_02" />
+			<object name="anim_plyfall_03" />
+			<object name="anim_plyfall_04" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static_full" enabled="true" template="static">
+			<object name="c_full" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_ply01" enabled="false" template="animated" collides_with_mover="false" >
+			<object name="anim_plyfall_01" />
+			<object name="g_ply01" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_ply02" enabled="false" template="animated" collides_with_mover="false" >
+			<object name="anim_plyfall_02" />
+			<object name="g_ply02" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_ply03" enabled="false" template="animated">
+			<object name="anim_plyfall_03" />
+			<object name="g_ply03" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_ply04" enabled="false" template="animated">
+			<object name="anim_plyfall_04" />
+			<object name="g_ply04" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_ply01" enabled="true" material="thin_layer" />
+		<decal_mesh name="g_ply02" enabled="true" material="thin_layer" />
+		<decal_mesh name="g_ply03" enabled="true" material="thin_layer" />
+		<decal_mesh name="g_ply04" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" >
+			<object name="g_ply01"			enabled="true" />
+			<object name="g_ply02"			enabled="true" />
+			<object name="g_ply03"			enabled="true" />
+			<object name="g_ply04"			enabled="true" />
+		</graphic_group>
+		<graphic_group name="grp_contour" enabled="false" >
+			<lod_object name="lod_contour">
+                <object name="g_contour"		enabled="true"  lod="0" max_distance="500" />
+                <object name="g_contour_lod1"	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

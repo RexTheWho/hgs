@@ -1,0 +1,38 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_main'" visibility="false" />
+			<graphic_group name="'grp_contour'" visibility="false" />
+			<body enabled="false" name="'body_static_full'"/>
+			<body enabled="false" name="'body_ply01'"/>
+			<body enabled="false" name="'body_ply02'"/>
+			<body enabled="false" name="'body_ply03'"/>
+			<body enabled="false" name="'body_ply04'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_main'" visibility="true" />
+			<graphic_group name="'grp_contour'" visibility="true" />
+			<body enabled="true" name="'body_static_full'"/>
+			<body enabled="false" name="'body_ply01'"/>
+			<body enabled="false" name="'body_ply02'"/>
+			<body enabled="false" name="'body_ply03'"/>
+			<body enabled="false" name="'body_ply04'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_contour'" visibility="false" />
+		</sequence>
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<graphic_group name="'grp_main'" visibility="true" />
+			<graphic_group name="'grp_contour'" visibility="false" />
+			<body enabled="false" name="'body_static_full'"/>
+			<body enabled="true" name="'body_ply01'"/>
+			<body enabled="true" name="'body_ply02'"/>
+			<body enabled="true" name="'body_ply03'"/>
+			<body enabled="true" name="'body_ply04'"/>
+			<animation_group enabled="true" name="'anim_plyfall'" from="0" speed="0.6" to="40/30" />
+		</sequence>
+	</unit>
+</table>

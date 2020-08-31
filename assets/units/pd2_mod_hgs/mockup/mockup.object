@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/mockup/mockup" orientation_object="rp_mkp" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="g_mkp" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<graphics>
+		<object name="g_mkp" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,7 @@
+{
+	"hgs_bunker_saw_finish":				"Saw the locks",
+	"hgs_bunker_saw_finish_desc":			"XXXXX",
+	"hgs_bunker_winch":						"Winch open the bunker",
+	"hgs_bunker_winch_desc":				"XXXXX",
+	"":""
+}

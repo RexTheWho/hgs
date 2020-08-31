@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import		file="cover_plywood.glb" type="gltf" create_objects="true"/>
+	<animation	file="cover_plywood.animation"/>
+</modelscript>

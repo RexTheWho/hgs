@@ -1,0 +1,57 @@
+<table>
+	<unit>
+		<variables>
+			<var_in value="0"/>
+		</variables>
+		<filter name="'filter_0'">
+			<check value="vars.var_in == 0"/>
+		</filter>
+		<filter name="'filter_1'">
+			<check value="vars.var_in == 1"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'hide_all'" triggable="true">
+			<interaction enabled="false"/>
+			<object enabled="false" name="'g_contour'"/>
+			<object enabled="false" name="'g_cable_applied'"/>
+			<object enabled="false" name="'g_cable_slack'"/>
+			<object enabled="false" name="'g_winch'"/>
+			<decal_mesh enabled="false" name="'g_winch'"/>
+			<body enabled="false" name="'body_static'"/>
+			<set_variables var_in="0" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<object enabled="true" name="'g_contour'"/>
+			<interaction enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'apply_cable_and_enable'" triggable="true">
+			<object enabled="true" name="'g_cable_applied'"/>
+			<object enabled="false" name="'g_cable_slack'"/>
+			<run_sequence name="'enable_interaction'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<object enabled="false" name="'g_contour'"/>
+			<run_sequence	filter="'filter_0'" name="'deployed_winch'" />
+			<sound			filter="'filter_1'" action="'play'" event="'friend_winch_start'" source="'snd'"/>
+			<sound			filter="'filter_1'" action="'play'" event="'winch_straining_on'" source="'snd2'"/>
+			<run_sequence	filter="'filter_1'" name="'finish_pulling'" start_time="10"/>
+			<set_variables var_in="1" start_time="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'finish_pulling'" triggable="true">
+			<sound action="'stop'" event="'friend_winch_stop'" source="'snd'"/>
+			<sound action="'stop'" event="'winch_straining_off'" source="'snd2'"/>
+			<object enabled="false" name="'g_cable_applied'"/>
+			<object enabled="true" name="'g_cable_slack'"/>
+		</sequence>
+		<sequence editable_state="true" name="'deployed_winch'" triggable="true">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'cas_start_winch'"/>
+			<object enabled="true" name="'g_winch'"/>
+			<decal_mesh enabled="true" name="'g_winch'"/>
+			<object enabled="true" name="'g_cable_slack'"/>
+			<body enabled="true" name="'body_static'"/>
+		</sequence>
+	</unit>
+</table>
