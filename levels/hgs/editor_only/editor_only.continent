@@ -184,6 +184,21 @@
 		<table>
 			<unit_data _prev_pos="-1075 -100 0" _prev_rot="0 0 -1.49012e-007 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_splitter_1m" name_id="navigation_splitter_1m_026" only_exists_in_editor="true" position="-1075 -50.0001 0" rotation="0 0 -1.49012e-007 -1" unit_id="200037"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-1300 800 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="100 500 0" local_rot="0 0 -1 0" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_2x3m_003" only_exists_in_editor="true" position="-1300 900 0" rotation="0 0 0.707107 -0.707107" unit_id="200061"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-500 800 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_2x3m_004" only_exists_in_editor="true" position="-500 900 0" rotation="0 0 0.707107 -0.707107" unit_id="200062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-500 800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_009" only_exists_in_editor="true" position="-500 800 0" rotation="0 0 -0.707107 -0.707107" unit_id="200063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_010" only_exists_in_editor="true" position="-800 800 0" rotation="0 0 -0.707107 -0.707107" unit_id="200064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-800 800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_011" only_exists_in_editor="true" position="-800 700 0" rotation="0 0 -0.707107 -0.707107" unit_id="200065"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
