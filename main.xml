@@ -61,6 +61,8 @@
 			<value_node value="levels/instances/unique/bph/bph_c4_doubledoor/world/world"/>
 			<value_node value="levels/instances/unique/dark/tunnel_room/world/world"/>
 			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world"/>
+			<value_node value="levels/instances/unique/wwh/wwh_garage_door/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
