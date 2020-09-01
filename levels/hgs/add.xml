@@ -1,62 +1,69 @@
 <table directory="assets">
 	<add unload_on_restart="true">
-		<material_config path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
-		<object path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
-		<model path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<object path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<model path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
-		<object path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
-		<model path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<gui load="true" path="guis/timer_gui" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<cooked_physics path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
-		<texture path="units/pd2_mod_hgs/props/hazardous_container/unknown_logo" unload="true"/>
-		<unit load="true" path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
-		<object path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
-		<model path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
-		<material_config path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
-		<sequence_manager path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/mockup/mockup" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
+		<model				path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
+		
+		<material_config	path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/tunnel" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/basement_2" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		
+		<gui				path="guis/timer_gui" unload="true" load="true"/>
+		<unit				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
+		<cooked_physics		path="units/pd2_mod_hgs/props/weapon_case_large/weapon_case_large" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/weapon_case_large/spawn_ak" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
+		<texture			path="units/pd2_mod_hgs/props/hazardous_container/unknown_logo" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
 	</add>
 	<texture path="levels/mods/hgs/cube_lights/100224"/>
 	<texture path="levels/mods/hgs/cube_lights/100226"/>
