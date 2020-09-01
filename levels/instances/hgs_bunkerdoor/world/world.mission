@@ -468,6 +468,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100029"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100025"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="200 -2100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1159,6 +1163,24 @@
 					<entry key="unit_ids" type="table">
 						<entry index="1" type="number" value="100000"/>
 					</entry>
+				</entry>
+			</entry>
+			<entry index="46" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutput"/>
+				<entry key="editor_name" type="string" value="found_bunker_door"/>
+				<entry key="id" type="number" value="100025"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="found_bunker_door"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="600 -2100 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

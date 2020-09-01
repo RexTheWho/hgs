@@ -1,4 +1,12 @@
 {
+	"hgs_enter_gunstore":					"Scout the gunstore",
+	"hgs_enter_gunstore_desc":				"XXXXX",
+	"hgs_mask_and_secure":					"Mask up",
+	"hgs_mask_and_secure_desc":				"XXXXX",
+	"hgs_find_basement":					"Open the basement",
+	"hgs_find_basement_desc":				"XXXXX",
+	"hgs_find_bunker":						"Find the bunker door",
+	"hgs_find_bunker_desc":					"XXXXX",
 	"hgs_bunker_saw_finish":				"Saw the locks",
 	"hgs_bunker_saw_finish_desc":			"XXXXX",
 	"hgs_bunker_winch":						"Winch open the bunker",

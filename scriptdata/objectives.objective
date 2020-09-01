@@ -3,5 +3,6 @@
 	<objective description="hgs_bunker_winch_desc" id="hgs_bunker_winch" text="hgs_bunker_winch"/>
 	<objective description="hgs_enter_gunstore_desc" id="hgs_enter_gunstore" text="hgs_enter_gunstore"/>
 	<objective description="hgs_mask_and_secure_desc" id="hgs_mask_and_secure" text="hgs_mask_and_secure"/>
+	<objective description="hgs_find_basement_desc" id="hgs_find_basement" text="hgs_find_basement"/>
 	<objective description="hgs_find_bunker_desc" id="hgs_find_bunker" text="hgs_find_bunker"/>
 </table>
