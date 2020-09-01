@@ -7,6 +7,6 @@
 	</bodies>
 	
 	<graphics>
-		<object name="g_mkp" enabled="true" />
+		<object name="g_mkp" enabled="true" shadow_caster="true" />
 	</graphics>
 </dynamic_object>

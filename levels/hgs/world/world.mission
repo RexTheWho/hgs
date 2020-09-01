@@ -14,7 +14,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-430.993 -2653.64 0"/>
+					<entry key="position" type="vector3" value="-530.993 -3053.64 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 5.66244e-007 -1"/>
 					<entry key="state" type="string" value="civilian"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -38,8 +38,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="664.61 -263.047 -400"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="86.536 -4134.23 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -61,7 +61,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="564.364 -246.39 -400"/>
+					<entry key="position" type="vector3" value="-13.71 -4117.57 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -84,7 +84,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="516.266 -165.098 -400"/>
+					<entry key="position" type="vector3" value="-61.808 -4036.28 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -107,7 +107,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="526.663 -43.0084 -400"/>
+					<entry key="position" type="vector3" value="-51.4109 -3914.19 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -130,7 +130,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="617.438 -37.6939 -400"/>
+					<entry key="position" type="vector3" value="39.364 -3908.87 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -170,7 +170,7 @@
 							<entry key="id" type="number" value="100005"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="678.074 -128.82 -400"/>
+					<entry key="position" type="vector3" value="100 -4000 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -239,7 +239,7 @@
 							<entry key="id" type="number" value="100008"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-470.505 -2586.84 200"/>
+					<entry key="position" type="vector3" value="-570.505 -2986.84 200"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -423,7 +423,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="enemy" type="string" value="units/payday2/characters/civ_male_casual_12/civ_male_casual_12"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_pickup" type="string" value="keycard"/>
+					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="-784 -500 0"/>

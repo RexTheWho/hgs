@@ -46,6 +46,7 @@
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
 			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/hgs_interior.environment" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
@@ -55,6 +56,11 @@
 			<value_node value="packages/narr_run"/>
 			<value_node value="levels/instances/unique/shout_card/world/world"/>
 			<value_node value="levels/narratives/skm/skm_red2/world"/>
+			<value_node value="levels/narratives/vlad/four_stores/world"/>
+			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
+			<value_node value="levels/instances/unique/bph/bph_c4_doubledoor/world/world"/>
+			<value_node value="levels/instances/unique/dark/tunnel_room/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
