@@ -8,16 +8,19 @@
 			<interaction enabled="false"/>
 			<graphic_group name="'grp_contour'" visibility="false" />
 		</sequence>
-		<sequence editable_state="false" name="'interact'" triggable="false">
-		</sequence>
 		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
 			<graphic_group name="'grp_contour'" visibility="false" />
 			<object enabled="false" name="'g_container'"/>
 			<body enabled="false" name="'body_static'"/>
 		</sequence>
 		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_contour'" visibility="false" />
 			<object enabled="true" name="'g_container'"/>
 			<body enabled="true" name="'body_static'"/>
 		</sequence>
+		<sequence editable_state="true" name="'interact'" triggable="true"/>
+		<sequence editable_state="true" name="'load'" triggable="true"/>
 	</unit>
 </table>

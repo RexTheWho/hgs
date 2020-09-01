@@ -3,14 +3,21 @@
         <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_plasterwall_01b_df"/>
         <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_nm"/>
     </material>
-    <material name="mat_concrete_walls" render_template="generic:DIFFUSE_TEXTURE" version="2">
+    <material name="mat_concrete_walls" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
         <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_int_wall_07a_df"/>
+        <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_int_floor_04a_nm"/>
     </material>
     <material name="mat_basement_walls_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
         <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_plasterwall_01b_df"/>
         <diffuse_layer0_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_df"/>
         <diffuse_layer1_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01mask_df"/>
         <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_nm"/>
+    </material>
+    <material name="mat_concrete_walls_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_int_floor_04b_df"/>
+        <diffuse_layer0_texture		file="units/payday2/architecture/safehouse/safehouse_int_wall_07a_df"/>
+        <diffuse_layer1_texture		file="units/payday2/architecture/safehouse/safehouse_int_floor_04mask_df"/>
+        <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_int_floor_04a_nm"/>
     </material>
     <material name="mat_concrete_floor" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
         <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_int_floor_04a_df"/>
@@ -23,12 +30,6 @@
         <diffuse_layer0_texture		file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02b_df"/>
         <diffuse_layer1_texture		file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02mask_df"/>
         <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_int_ceiling_02a_nm"/>
-    </material>
-    <material name="mat_basement_walls_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
-        <diffuse_texture			file="units/payday2/architecture/safehouse/safehouse_plasterwall_01b_df"/>
-        <diffuse_layer0_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_df"/>
-        <diffuse_layer1_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01mask_df"/>
-        <bump_normal_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_nm"/>
     </material>
     <material name="mat_rock_dirt_blend" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
         <diffuse_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_df"/>

@@ -8,9 +8,9 @@
 		</body>
 	</bodies>
 	<graphics>
-		<graphic_group name="grp_contour" enabled="true" >
+		<graphic_group name="grp_contour" enabled="false" >
 			<lod_object name="lod_contour">
-                <object name="g_contour"		enabled="true"  lod="0" max_distance="450" />
+                <object name="g_contour"		enabled="true"  lod="0" max_distance="375" />
                 <object name="g_contour_lod1"	enabled="true"  lod="1" />
 			</lod_object>
 		</graphic_group>

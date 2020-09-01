@@ -52,6 +52,12 @@
 		<model				path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
 		<material_config	path="units/pd2_mod_hgs/props/weapon_case_large/spawn_akgold" unload="true"/>
 		
+		<unit				path="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" unload="true"/>
+		
 		<unit				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>
 		<model				path="units/pd2_mod_hgs/props/hazardous_container/hazardous_container" unload="true"/>

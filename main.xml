@@ -35,10 +35,10 @@
 			<asset name="bodybags_bag"/>
 		</assets>
 		<include directory="levels/hgs">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="editor_only/editor_only.continent" type="custom_xml"/>
@@ -65,6 +65,7 @@
 			<value_node value="levels/instances/unique/wwh/wwh_garage_door/world/world"/>
 			<value_node value="levels/narratives/pbr/jerry/world"/>
 			<value_node value="levels/narratives/classics/dah/lights/lights"/>
+			<value_node value="levels/narratives/safehouse/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

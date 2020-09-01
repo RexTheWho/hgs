@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" orientation_object="rp_knife" />
+	<sequence_manager file="units/pd2_mod_hgs/props/bowie_knife/bowie_knife" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_c" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>
