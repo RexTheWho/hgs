@@ -2693,6 +2693,9 @@
 				<entry index="1" type="table">
 					<entry index="1" type="number" value="592"/>
 				</entry>
+				<entry index="31" type="table">
+					<entry index="1" type="number" value="600"/>
+				</entry>
 				<entry index="32" type="table">
 					<entry index="1" type="number" value="589"/>
 				</entry>
@@ -2701,9 +2704,6 @@
 			<entry key="neighbours" type="table">
 				<entry index="17" type="table">
 					<entry index="1" type="number" value="591"/>
-				</entry>
-				<entry index="31" type="table">
-					<entry index="1" type="number" value="600"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="-2066.53 911.143 0"/>
@@ -3213,15 +3213,17 @@
 			</entry>
 		</entry>
 		<entry index="31" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="3" type="table">
+					<entry index="1" type="number" value="600"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="2" type="table">
 					<entry index="1" type="number" value="595"/>
 					<entry index="2" type="number" value="597"/>
 					<entry index="3" type="number" value="598"/>
-				</entry>
-				<entry index="3" type="table">
-					<entry index="1" type="number" value="600"/>
 				</entry>
 				<entry index="32" type="table">
 					<entry index="1" type="number" value="601"/>

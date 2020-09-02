@@ -1,4 +1,9 @@
 {
+	"heist_hgs_name":						"Gunstore",
+	"heist_hgs_brief":						"XXXXX",
+	"level_hgs_name":						"Gunstore Location",
+	"level_hgs_brief":						"XXXXX",
+	
 	"hgs_enter_gunstore":					"Scout the gunstore",
 	"hgs_enter_gunstore_desc":				"XXXXX",
 	"hgs_hack_doors":						"Open the back room doors",

@@ -29,7 +29,7 @@
 			</mod>
 		</script_data_mods>
 	</instance>
-	<level ai_group_type="america" id="hgs" max_bags="54">
+	<level ai_group_type="america" briefing_id="level_hgs_brief" id="hgs" max_bags="16" name_id="level_hgs_name">
 		<add file="levels/hgs/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
