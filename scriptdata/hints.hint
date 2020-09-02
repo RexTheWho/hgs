@@ -1,0 +1,3 @@
+<table>
+	<hint event="stinger_feedback_negative" id="warning_stay_inside" text_id="warning_stay_inside"/>
+</table>

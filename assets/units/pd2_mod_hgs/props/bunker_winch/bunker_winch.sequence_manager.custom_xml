@@ -37,7 +37,7 @@
 			<run_sequence	filter="'filter_0'" name="'deployed_winch'" />
 			<sound			filter="'filter_1'" action="'play'" event="'friend_winch_start'" source="'snd'"/>
 			<sound			filter="'filter_1'" action="'play'" event="'winch_straining_on'" source="'snd2'"/>
-			<run_sequence	filter="'filter_1'" name="'finish_pulling'" start_time="10"/>
+			<run_sequence	filter="'filter_1'" name="'finish_pulling'" start_time="30"/>
 			<set_variables var_in="1" start_time="1"/>
 		</sequence>
 		<sequence editable_state="true" name="'finish_pulling'" triggable="true">

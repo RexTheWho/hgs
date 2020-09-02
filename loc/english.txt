@@ -1,6 +1,8 @@
 {
 	"hgs_enter_gunstore":					"Scout the gunstore",
 	"hgs_enter_gunstore_desc":				"XXXXX",
+	"hgs_hack_doors":						"Open the back room doors",
+	"hgs_hack_doors_desc":					"XXXXX",
 	"hgs_mask_and_secure":					"Mask up",
 	"hgs_mask_and_secure_desc":				"XXXXX",
 	"hgs_find_basement":					"Open the basement",
@@ -13,5 +15,6 @@
 	"hgs_bunker_winch_desc":				"XXXXX",
 	"hgs_find_items":						"Find the requested items",
 	"hgs_find_items_desc":					"4 Golden AKs, 1 Knife, 1 Biohazard Container...\nEverything else you find is a bonus.",
+	"warning_stay_inside":					"Stay inside!",
 	"":""
 }
