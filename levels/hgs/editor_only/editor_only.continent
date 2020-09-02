@@ -361,6 +361,35 @@
 		<table>
 			<unit_data _prev_pos="800 2000 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" name_id="dev_nav_splitter_8x3m_009" only_exists_in_editor="true" position="800 2000 0" rotation="0 0 0.707107 -0.707107" unit_id="200119"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-174 -81 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_012" only_exists_in_editor="true" position="-174 -81 0" rotation="0 0 0 -1" unit_id="200120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1300 235 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_013" only_exists_in_editor="true" position="-1317 223 0" rotation="0 0 0.707107 -0.707107" unit_id="200121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="950 -50 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_splitter" name_id="navigation_splitter_002" only_exists_in_editor="true" position="950 -50 0" rotation="0 0 0 -1" unit_id="200122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="593 -50 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="-14.2883 326.177 0" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/level_tools/navigation_splitter" name_id="navigation_splitter_003" only_exists_in_editor="true" position="593 -50 0" rotation="0 0 0 -1" unit_id="200123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2200 -4600 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_007" position="2200 -4600 2000" rotation="0 0 0 -1" unit_id="200124"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2200 -4600 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_008" position="2200 -5600 2000" rotation="0 0 0 -1" unit_id="200125"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2100 -6700 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_009" position="-2100 -6700 2000" rotation="0 0 0 -1" unit_id="200126"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 -1950 0" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_police_responce" name="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1" name_id="bnk_vehicle_car_police_anim_1_002" position="-2400 -1950 0" rotation="0 0 0.707107 -0.707107" unit_id="200127">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.113725 0.513726 1" enabled="true" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="true" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

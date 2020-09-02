@@ -1,31 +1,33 @@
 <table directory="assets">
+	<add path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" type="unit">
+		<unit path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+		<object path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+		<material_config path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+	</add>
 	<add unload_on_restart="true">
-		<material_config	path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
-		<unit				path="units/pd2_mod_hgs/architecture/tunnel" unload="true" load="true"/>
-		<object				path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<model				path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
-		
-		<unit				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true" load="true"/>
-		<object				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<model				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<material_config	path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
-		
-		<unit				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true" load="true"/>
-		<object				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<model				path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<material_config	path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
-		
-		<gui				path="guis/timer_gui" unload="true" load="true"/>
-		<unit				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true" load="true"/>
-		<object				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<model				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<material_config	path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
-		<unit				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true" load="true"/>
-		<object				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
-		<model				path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		<material_config path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<object path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<model path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<object path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<model path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<material_config path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<object path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<model path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<material_config path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hgs/props/bunker_winch/bunker_winch" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<object path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<model path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<material_config path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<sequence_manager path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw" unload="true"/>
+		<unit load="true" path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		<object path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		<model path="units/pd2_mod_hgs/props/bunker_saw/bunker_saw_b" unload="true"/>
+		<gui load="true" path="guis/timer_gui" unload="true"/>
 	</add>
 </table>

@@ -472,6 +472,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100025"/>
 						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100027"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="200 -2100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1180,6 +1184,26 @@
 					</entry>
 					<entry key="position" type="vector3" value="600 -2100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="47" type="table">
+				<entry key="class" type="string" value="ElementAIAttention"/>
+				<entry key="editor_name" type="string" value="ai_attention_001"/>
+				<entry key="id" type="number" value="100027"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="att_obj_u_id" type="number" value="100006"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="set"/>
+					<entry key="override" type="string" value="none"/>
+					<entry key="position" type="vector3" value="-400 -100 0"/>
+					<entry key="preset" type="string" value="open_vault_ene_ntl"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

@@ -1,3 +1,7 @@
 <table>
 	<hint event="stinger_feedback_negative" id="warning_stay_inside" text_id="warning_stay_inside"/>
+	<hint event="stinger_feedback_negative" id="phonecall_1_of_4" text_id="phonecall_1_of_4"/>
+	<hint event="stinger_feedback_negative" id="phonecall_2_of_4" text_id="phonecall_2_of_4"/>
+	<hint event="stinger_feedback_negative" id="phonecall_3_of_4" text_id="phonecall_3_of_4"/>
+	<hint event="stinger_feedback_negative" id="phonecall_4_of_4" text_id="phonecall_4_of_4"/>
 </table>

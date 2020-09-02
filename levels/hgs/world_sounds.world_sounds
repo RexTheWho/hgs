@@ -6,6 +6,18 @@
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
+		<entry index="1" type="table">
+			<entry key="emitter_event" type="string" value="emitter_electric_power_box_01"/>
+			<entry key="name" type="string" value="snd_electricHum_001"/>
+			<entry key="position" type="vector3" value="974.523 -208.573 -260.695"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum_loop_mono_cone_att_01"/>
+			<entry key="name" type="string" value="snd_electricHum_002"/>
+			<entry key="position" type="vector3" value="-927.611 1133.62 387.527"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 	</entry>

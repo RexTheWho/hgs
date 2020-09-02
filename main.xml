@@ -55,10 +55,12 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
-			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
-			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
 			<value_node value="packages/narr_peta2"/>
 			<value_node value="packages/narr_run"/>
+			<value_node value="packages/narr_firestarter3"/>
+			<value_node value="packages/narr_election2"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
 			<value_node value="levels/instances/unique/shout_card/world/world"/>
 			<value_node value="levels/narratives/skm/skm_red2/world"/>
 			<value_node value="levels/narratives/vlad/four_stores/world"/>
@@ -71,7 +73,6 @@
 			<value_node value="levels/narratives/pbr/jerry/world"/>
 			<value_node value="levels/narratives/classics/dah/lights/lights"/>
 			<value_node value="levels/narratives/safehouse/world"/>
-			<value_node value="packages/narr_election2"/>
 			<value_node value="levels/narratives/elephant/mad/lights_underground_lab/lights_underground_lab"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/new_mall/new_mall"/>
 		</packages>

@@ -47,6 +47,9 @@
 		<table>
 			<unit_data _prev_pos="-148.172 13 265.888" _prev_rot="-3.63878e-009 -0.748956 5.94935e-008 -0.66262" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_4x3m_009" only_visible_in_editor="true" position="-148.172 13 265.888" rotation="-3.63878e-009 -0.748956 5.94935e-008 -0.66262" unit_id="100017"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-200 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" name_id="ai_attention_object_001" only_visible_in_editor="true" position="0 0 100" rotation="0 0 0 -1" unit_id="100006"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
