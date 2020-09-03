@@ -7,4 +7,5 @@
 	<objective description="hgs_find_bunker_desc" id="hgs_find_bunker" text="hgs_find_bunker"/>
 	<objective amount="6" description="hgs_find_items_desc" id="hgs_find_items" text="hgs_find_items"/>
 	<objective description="hgs_hack_doors_desc" id="hgs_hack_doors" text="hgs_hack_doors"/>
+	<objective description="hgs_loud_early_desc" id="hgs_loud_early" text="hgs_loud_early"/>
 </table>

@@ -10,6 +10,8 @@
 	"hgs_hack_doors_desc":					"We dont want to alert anyone so take out the security guard upstairs.\nMove the civilians out of sight so our guy can manage the front.\nAnd finally get the back room open.",
 	"hgs_mask_and_secure":					"UNUSED",
 	"hgs_mask_and_secure_desc":				"XXXXX",
+	"hgs_loud_early":						"Open the back room doors",
+	"hgs_loud_early_desc":					"XXXXX --- Went loud too early!",
 	"hgs_find_basement":					"Open the basement",
 	"hgs_find_basement_desc":				"XXXXX",
 	"hgs_find_bunker":						"Find the bunker door",
