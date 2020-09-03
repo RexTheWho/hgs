@@ -5,9 +5,9 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="SpecialEquipmentInteractionExt">
-			<var name="tweak_data"				value="hold_pku_knife" />
+			<var name="tweak_data"				value="take_big_knife" />
 			<var name="interact_object"			value="interact"/>
-		    <var name="_special_equipment"		value="chrome_skull" />
+		    <var name="_special_equipment"		value="big_knife" />
 			<var name="_remove_on_interact"		value="true" />
 		</extension>
 	</extensions>

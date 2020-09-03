@@ -7,12 +7,12 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="CarryInteractionExt">
-			<var name="tweak_data" value="take_weapons" />
+			<var name="tweak_data" value="take_golden_ak" />
 			<var name="_remove_on_interact" value="true" />
 			<var name="_global_event" value="pku_weapons" />
 		</extension>
 		<extension name="carry_data" class="CarryData">
-			<var name="_carry_id" value="gold" />
+			<var name="_carry_id" value="hgs_golden_ak" />
 		</extension>
 	</extensions>
 </unit>

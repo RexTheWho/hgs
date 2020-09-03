@@ -1324,6 +1324,54 @@
 		<table>
 			<unit_data _prev_pos="-3000 800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_mechanical_powerbox/str_prop_mechanical_powerbox_d" name_id="str_prop_mechanical_powerbox_b_002" position="-3000 800 0" rotation="0 0 -0.707107 -0.707107" unit_id="100196"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="114.002 1814.05 2" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 500 0" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_010" position="114.002 1814.05 2" rotation="-0 0 -0 -1" unit_id="100197">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.8075" render_template="diffuse_vc_decal" text="-- LOOT ZONE -- LOOT ZONE -- LOOT ZONE -- LOOT ZONE --" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="614.002 1814.05 2" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_011" position="614.002 1814.05 2" rotation="0 0 -0.707107 -0.707107" unit_id="100198">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.8075" render_template="diffuse_vc_decal" text="-- LOOT ZONE -- LOOT ZONE -- LOOT ZONE -- LOOT ZONE --" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="114.002 2314.05 2" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_012" position="114.002 2314.05 2" rotation="0 0 0.707107 -0.707107" unit_id="100199">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.8075" render_template="diffuse_vc_decal" text="-- LOOT ZONE -- LOOT ZONE -- LOOT ZONE -- LOOT ZONE --" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-385.998 2314.05 2" _prev_rot="0 0 0 -1" continent="world" local_pos="-5.96046e-005 500 0" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_013" position="614.002 2314.05 2" rotation="0 0 1 8.9407e-008" unit_id="100200">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.8075" render_template="diffuse_vc_decal" text="-- LOOT ZONE -- LOOT ZONE -- LOOT ZONE -- LOOT ZONE --" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

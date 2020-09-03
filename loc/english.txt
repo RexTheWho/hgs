@@ -27,5 +27,16 @@
 	"phonecall_3_of_4":						"Event 3: Inspection",
 	"phonecall_4_of_4":						"Event 4: Countdown until alarm!",
 	
+	"hud_int_hold_take_golden_ak":			"Hold $BTN_INTERACT to bag golden Ak",
+	"hud_action_taking_golden_ak":			"Bagging golden Ak",
+	"hud_int_hold_take_hazard_case":		"Hold $BTN_INTERACT to take biohazard container",
+	"hud_action_taking_hazard_case":		"Taking biohazard container",
+	"hud_int_hold_take_big_knife":			"Hold $BTN_INTERACT to take bowie knife",
+	"hud_action_taking_big_knife":			"Taking bowie knife",
+	
+	"hud_equipment_big_knife":				"Bowie Knife",
+	"hud_equipment_hazard_case":			"Biohazard Container",
+	"hud_carry_golden_ak":					"Golden AK",
+	
 	"":""
 }

@@ -37,11 +37,19 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="HudIconsTweakData.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="ElementAreaTrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
 		<include directory="levels/hgs">
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
