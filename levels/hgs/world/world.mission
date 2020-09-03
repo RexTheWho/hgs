@@ -17786,7 +17786,7 @@
 				<entry key="module" type="string" value="CoreElementDebug"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="as_subtitle" type="boolean" value="true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="Caller: Hello weve had a report of some suspicious things going on."/>
 					<entry key="enabled" type="boolean" value="true"/>
@@ -17810,7 +17810,7 @@
 				<entry key="module" type="string" value="CoreElementDebug"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="as_subtitle" type="boolean" value="true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="Caller: Were sending some officers to check things out."/>
 					<entry key="enabled" type="boolean" value="true"/>
