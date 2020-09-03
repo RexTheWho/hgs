@@ -89,6 +89,7 @@
 		<value_node value="-1050 236 0"/>
 		<value_node value="845 -535 -400"/>
 		<value_node value="893 465 400"/>
+		<value_node value="-999 -210 400"/>
 		<value_node value="-729 -829 0"/>
 		<value_node value="-639 138 891"/>
 		<value_node value="-523 978 0"/>
@@ -96,6 +97,7 @@
 		<value_node value="898 649 -300"/>
 		<value_node value="-531 -519 876"/>
 		<value_node value="-374 1087 0"/>
+		<value_node value="-999 -410 400"/>
 		<value_node value="-307 -751 844"/>
 		<value_node value="813 744 400"/>
 		<value_node value="-86 -846 812"/>
@@ -239,6 +241,8 @@
 		<value_node value="-2721 -2062 0"/>
 	</positions>
 	<rotations>
+		<value_node value="0"/>
+		<value_node value="0"/>
 		<value_node value="0"/>
 		<value_node value="0"/>
 		<value_node value="0"/>

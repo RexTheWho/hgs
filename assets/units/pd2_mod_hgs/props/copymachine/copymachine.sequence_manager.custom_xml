@@ -1,0 +1,31 @@
+<table>
+	<unit>
+		<variables>
+			<var_int value="0"/>
+		</variables>
+		<filter name="'check_changed_int'">
+			<check value="vars.var_int == 1"/>
+		</filter>
+		<sequence editable_state="true" name="'enable_contour'" triggable="true">
+			<material_config name="'units/pd2_mod_hgs/props/copymachine/copymachine_outline'"/>
+			<function extension="'interaction'" function="'refresh_material'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_contour'" triggable="true">
+			<material_config name="'units/pd2_mod_hgs/props/copymachine/copymachine'"/>
+			<function extension="'interaction'" function="'refresh_material'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<sound action="'play'" event="'document_scanner_send'" filter="'check_changed_int'" source="'snd'"/>
+		</sequence>
+		<sequence editable_state="true" name="'change_interaction_to_send'" triggable="true">
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'send_blueprints'"/>
+			<set_variables var_int="1"/>
+		</sequence>
+	</unit>
+</table>

@@ -712,6 +712,12 @@
 		<table>
 			<unit_data _prev_pos="102.508 633.037 400" _prev_rot="0 0 0 -1" continent="coverpoints" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_237" only_exists_in_editor="true" position="102.508 633.037 400" rotation="0 0 0 -1" unit_id="300236"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-1098.77 -609.7 400" _prev_rot="0 0 0 -1" continent="coverpoints" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_238" only_exists_in_editor="true" position="-998.77 -409.7 400" rotation="0 0 0 -1" unit_id="300237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-998.77 -409.7 400" _prev_rot="0 0 0 -1" continent="coverpoints" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_239" only_exists_in_editor="true" position="-998.77 -209.7 400" rotation="0 0 0 -1" unit_id="300238"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

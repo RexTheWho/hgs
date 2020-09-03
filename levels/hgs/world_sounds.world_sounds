@@ -18,6 +18,12 @@
 			<entry key="position" type="vector3" value="-927.611 1133.62 387.527"/>
 			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
 		</entry>
+		<entry index="3" type="table">
+			<entry key="emitter_event" type="string" value="emitter_muffled_shop_music"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="-395.618 -644.509 318"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 	</entry>

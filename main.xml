@@ -38,10 +38,10 @@
 			<asset name="bodybags_bag"/>
 		</assets>
 		<include directory="levels/hgs">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
 			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
 			<file file="world_sounds.world_sounds" type="generic_xml"/>
 			<file file="world_cameras.world_cameras" type="custom_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
@@ -76,6 +76,7 @@
 			<value_node value="levels/narratives/elephant/mad/lights_underground_lab/lights_underground_lab"/>
 			<value_node value="levels/narratives/e_election_day/stage_3/new_mall/new_mall"/>
 			<value_node value="levels/narratives/bain/shadow_raid/out/out"/>
+			<value_node value="levels/narratives/bain/help/collision/collision"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

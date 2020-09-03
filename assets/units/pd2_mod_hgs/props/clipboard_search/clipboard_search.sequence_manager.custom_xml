@@ -1,0 +1,38 @@
+<table>
+	<unit>
+		<variables>
+			<var_shown value="0"/>
+		</variables>
+		<filter name="'filter_is_shown'">
+			<check value="vars.var_shown == 1"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_main'" visibility="false" />
+			<graphic_group name="'grp_contour'" visibility="false" />
+			<body enabled="false" name="'body_static'"/>
+			<set_variables var_shown="0" />
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<graphic_group name="'grp_main'" visibility="true" />
+			<body enabled="true" name="'body_static'"/>
+			<set_variables var_shown="1" />
+		</sequence>
+		<sequence editable_state="true" name="'enable'" filter="'filter_is_shown'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_contour'" visibility="true" />
+			<object name="'g_notes'"		enabled="true"/>
+			<object name="'g_notes_torn'"	enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_contour'" visibility="false" />
+		</sequence>
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<graphic_group name="'grp_contour'" visibility="false" />
+			<object name="'g_notes'"		enabled="false"/>
+			<object name="'g_notes_torn'"	enabled="true"/>
+		</sequence>
+	</unit>
+</table>

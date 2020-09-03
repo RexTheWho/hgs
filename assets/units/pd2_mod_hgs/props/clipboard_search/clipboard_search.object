@@ -1,0 +1,27 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/clipboard_search/clipboard_search" orientation_object="rp_clipboard_paper" />
+	<sequence_manager file="units/pd2_mod_hgs/props/clipboard_search/clipboard_search" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_clipboard" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" >
+			<object name="g_clipboard"		enabled="true" />
+			<object name="g_notes"			enabled="true" />
+			<object name="g_notes_torn"		enabled="false" />
+		</graphic_group>
+		<graphic_group name="grp_contour" enabled="false" >
+			<lod_object name="lod_contour">
+                <object name="g_contour"		enabled="true"  lod="0" max_distance="375" />
+                <object name="g_contour_lod1"	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
