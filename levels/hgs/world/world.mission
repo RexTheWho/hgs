@@ -894,6 +894,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100687"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100703"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1000 -2700 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -21210,6 +21214,24 @@
 					<entry key="test_robber" type="number" value="1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="704" type="table">
+				<entry key="class" type="string" value="ElementMandatoryBags"/>
+				<entry key="editor_name" type="string" value="mandatory_bags_goldAk"/>
+				<entry key="id" type="number" value="100703"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="4"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="carry_id" type="string" value="hgs_golden_ak"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-942.253 -2883.56 -20"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
