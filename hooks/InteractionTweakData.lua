@@ -12,4 +12,18 @@ Hooks:PostHook(InteractionTweakData,"init","hgs_init",function(self)
 	self.take_big_knife.text_id = "hud_int_hold_take_big_knife"
 	self.take_big_knife.action_text_id = "hud_action_taking_big_knife"
 	
+	self.hold_remove_cover_wood = {
+		text_id = "hud_int_hold_remove_cover",
+		action_text_id = "hud_action_removing_cover",
+		start_active = false,
+		timer = 5,
+		sound_start = "bar_wood_fence_break",
+		sound_interupt = "bar_wood_fence_cancel",
+		sound_done = "bar_wood_fence_finnished"
+	}
+	self.hold_remove_cover_tarp = deep_clone(self.hold_remove_cover_wood)
+	self.hold_remove_cover_tarp.sound_start = "bar_cut_off_arm"
+	self.hold_remove_cover_tarp.sound_interupt = "bar_cut_off_arm_cancel"
+	self.hold_remove_cover_tarp.sound_done = "bar_cut_off_arm_finished"
+	
 end)

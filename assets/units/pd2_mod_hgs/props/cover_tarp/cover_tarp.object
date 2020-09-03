@@ -1,0 +1,24 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" orientation_object="rp_cover" />
+	<sequence_manager file="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" />
+	<bodies>
+		<body name="body_static_full" enabled="true" template="static" >
+			<object name="c_c" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_static_opened" enabled="false" template="static" >
+			<object name="c_removed" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="g_cover"			enabled="true" material="thin_layer" />
+		<decal_mesh name="g_cover_removed"	enabled="false" material="thin_layer" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_main" enabled="true" >
+			<object name="g_cover"			enabled="true" />
+			<object name="g_cover_removed"	enabled="false" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

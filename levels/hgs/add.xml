@@ -71,6 +71,12 @@
 		<material_config	path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" unload="true"/>
 		
+		<unit				path="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" unload="true"/>
+		
 		<unit				path="units/pd2_mod_hgs/props/clipboard_search/clipboard_search" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/clipboard_search/clipboard_search" unload="true"/>
 		<model				path="units/pd2_mod_hgs/props/clipboard_search/clipboard_search" unload="true"/>

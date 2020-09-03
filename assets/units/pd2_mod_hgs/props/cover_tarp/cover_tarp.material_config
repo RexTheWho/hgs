@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_tarp" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/pd2_dlc_glace/architecture/glc_ext_bridge/shared_textures/glc_ext_bridge_tarpaulin_a_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_glace/architecture/glc_ext_bridge/shared_textures/glc_ext_bridge_tarpaulin_a_nm"/>
+    </material>
+</materials>

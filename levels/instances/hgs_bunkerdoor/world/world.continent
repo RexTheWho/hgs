@@ -3,7 +3,7 @@
 	<instances/>
 	<statics>
 		<table>
-			<unit_data _prev_pos="49.2436 -54.185 0" _prev_rot="0 0 0.559193 -0.829037" continent="world" local_pos="-50.7564 145.815 0" local_rot="0 0 -0.559193 0.829037" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_001" position="49.2436 -54.185 0" rotation="0 0 0.559193 -0.829037" unit_id="100000"/>
+			<unit_data _prev_pos="49.244 -54.185 0" _prev_rot="0 0 0.559193 -0.829038" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_001" position="49.244 -54.185 0" rotation="0 0 0.559193 -0.829038" unit_id="100000"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_tunnel" name="units/pd2_mod_hgs/architecture/tunnel" name_id="tunnel_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
@@ -49,6 +49,36 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-200 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" name_id="ai_attention_object_001" only_visible_in_editor="true" position="0 0 100" rotation="0 0 0 -1" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-125 0 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box_part" name_id="cover_space1_junk1" position="-125 0 0" rotation="0 0 -0.707107 -0.707107" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/cover_tarp/cover_tarp" name_id="cover_space1_tarp001" position="0 0 0" rotation="0 0 0 -1" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="-100 0 0" local_rot="0 0 0.707107 0.707107" mesh_variation="enable" name="units/pd2_mod_hgs/props/cover_plywood/cover_plywood" name_id="cover_space1_plyw001" position="0 0 0" rotation="0 0 0 -1" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 0 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" name_id="dev_door_blocker_cover" only_visible_in_editor="true" position="-100 0 0" rotation="0 0 0.707107 -0.707107" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 150 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" name_id="dev_door_blocker_door" only_visible_in_editor="true" position="-100 150 0" rotation="0 0 0.707107 -0.707107" unit_id="100020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-61.491 -55.843 0" _prev_rot="0 0 0.0261769 -0.999657" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="cover_space1_junk2b" position="-61.491 -55.843 0" rotation="0 0 0.0261769 -0.999657" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="83.415 -61.434 0" _prev_rot="0 0 0.999848 -0.0174524" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="cover_space1_junk2a" position="83.415 -61.434 0" rotation="0 0 0.999848 -0.0174524" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="80.971 -55.675 0" _prev_rot="0 0 0.71934 -0.694658" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_shelf_wire/off_prop_generic_shelf_wire_a" name_id="cover_space1_junk3a" position="80.971 -55.675 0" rotation="0 0 0.71934 -0.694658" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-57.803 -52.924 0" _prev_rot="0 0 0.681998 -0.731354" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_generic_shelf_wire/off_prop_generic_shelf_wire_a" name_id="cover_space1_junk3b" position="-57.803 -52.924 0" rotation="0 0 0.681998 -0.731354" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7.88028 354.149 0" _prev_rot="0 0 0.882948 -0.469471" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_002" position="-7.88 354.149 0" rotation="0 0 0.882948 -0.469472" unit_id="100025"/>
 		</table>
 	</statics>
 	<values>

@@ -1,0 +1,27 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'grp_main'" visibility="false" />
+			<body enabled="false" name="'body_static_full'"/>
+			<body enabled="false" name="'body_static_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_main'" visibility="true" />
+			<body enabled="true" name="'body_static_full'"/>
+			<body enabled="false" name="'body_static_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<object name="'g_cover'" enabled="false" />
+			<object name="'g_cover_removed'" enabled="true" />
+			<decal_mesh name="'g_cover'" enabled="false" />
+			<decal_mesh name="'g_cover_removed'" enabled="true" />
+			<body enabled="false" name="'body_static_full'"/>
+			<body enabled="true" name="'body_static_opened'"/>
+		</sequence>
+	</unit>
+</table>
