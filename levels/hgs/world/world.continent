@@ -1379,6 +1379,36 @@
 		<table>
 			<unit_data _prev_pos="-1400 650 400" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box" name_id="ind_ext_dock_bld_electrical_box_001" position="-1400 650 400" rotation="-0 0 -0 -1" unit_id="100206"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="805.701 -739.113 -400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_014" position="805.701 -739.113 -400" rotation="0 0 -0.026177 -0.999657" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="925.946 -708.257 -400" _prev_rot="0 0 -0.66262 -0.748956" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/mansion/man_cover_int_shipping_crate_wide/man_cover_int_shipping_crate_wide" name_id="man_cover_int_shipping_crate_wide_015" position="925.946 -708.257 -400" rotation="0 0 -0.688355 -0.725374" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="921.96 -715.981 -290" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_c" name_id="ind_prop_warehouse_box_c_007" position="921.96 -715.981 -290" rotation="0 0 -0.66262 -0.748956" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="281.815 84.8093 -400" _prev_rot="-0 -0 0.819152 -0.573577" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_003" position="281.815 84.8093 -400" rotation="-0 -0 0.819152 -0.573577" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="606.267 174.72 -400" _prev_rot="0 0 -0.843392 -0.537299" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_004" position="606.267 174.72 -400" rotation="0 0 -0.843392 -0.537299" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="783.551 -505.461 -400" _prev_rot="0 0 -0.342021 -0.939692" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_005" position="783.551 -505.461 -400" rotation="0 0 -0.342021 -0.939692" unit_id="100207"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="334.332 -565.793 -400" _prev_rot="0 0 0.430511 -0.902586" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_006" position="334.332 -565.793 -400" rotation="0 0 0.430511 -0.902586" unit_id="100208"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="902.997 704.146 -300" _prev_rot="0 0 0.819152 -0.573577" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_ext_apartment/res_ext_debris" name_id="res_ext_debris_007" position="902.997 704.146 -300" rotation="0 0 0.819152 -0.573577" unit_id="100209"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="157.228 500 -200.82" _prev_rot="-0.0308436 0.0308436 0.706434 -0.706434" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_decal_10" name_id="ind_ext_decal_10_001" position="157.228 499 -200.82" rotation="-0.0308436 0.0308436 0.706434 -0.706434" unit_id="100210"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-950 25 100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_decal_05" name_id="ind_ext_decal_05_001" position="-950 26 100" rotation="0 0 -0.707107 -0.707107" unit_id="100211"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
