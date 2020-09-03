@@ -1304,10 +1304,10 @@
 			<unit_data _prev_pos="-2248 -1767 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence002_256" name_id="fence002_256_001" position="-2248 -1767 0" rotation="0 0 0.707107 -0.707107" unit_id="100188"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2248 -1689 18" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence_cover001_256" name_id="fence002_256_003" position="-2248 -1767 18" rotation="0 0 -0.707107 -0.707107" unit_id="100190"/>
+			<unit_data _prev_pos="-2248 -1767 22.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence_cover001_256" name_id="fence002_256_003" position="-2248 -1767.5 22.5" rotation="0 0 -0.707107 -0.707107" unit_id="100190"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1900 0 600" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/electrical_box/electrical_box02" name_id="electrical_box02_001" position="-1900 0 600" rotation="0 0 1 -0" unit_id="100189"/>
+			<unit_data _prev_pos="-1400 1200 600" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/architecture/hospital/props/rooftop/electrical_box/electrical_box02" name_id="electrical_box02_001" position="-1400 1200 600" rotation="0 0 1 -4.37114e-008" unit_id="100189"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1900 -1800 310" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props/props_utilities/electric_cables06" name_id="electrical_box02_002" position="-1900 -1800 310" rotation="0 0 1 -4.37114e-008" unit_id="100191"/>
@@ -1371,6 +1371,28 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1530 3 700" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 300" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" name_id="ind_ext_level_ladder_top_001" position="-1530 3 700" rotation="0 0 0.707107 -0.707107" unit_id="100201"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1530 3 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-20 22 0" local_rot="0 0 0.707107 0.707107" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" name_id="ind_ext_level_ladder_top_002" position="-1530 3 400" rotation="0 0 0.707107 -0.707107" unit_id="100202"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1550 25 400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_ladder_enable" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_001" only_visible_in_editor="true" position="-1550 25 400" rotation="0 0 1 4.37114e-008" unit_id="100203">
+				<ladder height="425" width="55"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="50 700 600" _prev_rot="0 0.130526 0 -0.991445" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props/de_train/ladderaluminium" name_id="ladderaluminium_001" position="50 700 600" rotation="0 0.130526 0 -0.991445" unit_id="100204"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="115 700 400" _prev_rot="0.092296 0.092296 -0.701057 -0.701057" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_ladder_enable" name="units/dev_tools/dev_ladder/dev_ladder" name_id="dev_ladder_002" only_visible_in_editor="true" position="115 700 400" rotation="0.092296 0.092296 -0.701057 -0.701057" unit_id="100205">
+				<ladder height="425" width="50"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1400 650 400" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_electrical_box" name_id="ind_ext_dock_bld_electrical_box_001" position="-1400 650 400" rotation="-0 0 -0 -1" unit_id="100206"/>
 		</table>
 	</statics>
 	<values>
