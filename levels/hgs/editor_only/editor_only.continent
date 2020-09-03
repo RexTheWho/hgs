@@ -447,6 +447,12 @@
 		<table>
 			<unit_data _prev_pos="2200 -5600 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 -1000 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_013" position="3300 -5600 2000" rotation="0 0 0 -1" unit_id="200146"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -5700 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_014" position="-3200 -5700 2000" rotation="0 0 0 -1" unit_id="200147"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -6700 2000" _prev_rot="0 0 0 -1" continent="editor_only" disable_on_ai_graph="true" disable_shadows="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_015" position="-3200 -6700 2000" rotation="0 0 0 -1" unit_id="200148"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
