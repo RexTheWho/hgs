@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/window_bars/window_bars" orientation_object="rp_bars" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="g_bars" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="steel">
+		<decal_mesh name="g_bars" enabled="true" material="steel" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_bars" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

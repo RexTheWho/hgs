@@ -17,6 +17,11 @@
 		<object				path="units/pd2_mod_hgs/architecture/bld_office_wing_ext" unload="true"/>
 		<model				path="units/pd2_mod_hgs/architecture/bld_office_wing_ext" unload="true"/>
 		
+		<unit				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true"/>
+		
 		<unit				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
 		<model				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
