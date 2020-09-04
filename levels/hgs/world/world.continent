@@ -1431,7 +1431,7 @@
 			<unit_data _prev_pos="-1514 800 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_128" name_id="urban_bush_angled_64_002" position="-1592 800 0" rotation="0 0 -0.707107 -0.707107" unit_id="100406"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2250 1050 400" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small" name_id="des_prop_roof_antenna_small_001" position="-2250 1050 400" rotation="0 0 0.707107 -0.707107" unit_id="100407"/>
+			<unit_data _prev_pos="-2250 1050 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small" name_id="des_prop_roof_antenna_small_001" position="-2250 1050 400" rotation="0 0 -0.707107 -0.707107" unit_id="100407"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1782.12 369.247 400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_spot_4m" name_id="com_ext_parking_garage_decal_a_spot_4m_001" position="-1782.12 369.247 400" rotation="0 0 0 -1" unit_id="100408"/>
