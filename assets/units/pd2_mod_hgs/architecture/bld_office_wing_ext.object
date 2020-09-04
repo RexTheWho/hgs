@@ -1,0 +1,27 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/architecture/architecture" orientation_object="rp_bld_office_wing_ext" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_bld_office_wing_ext_001" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_002" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_003" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_004" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_005" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_006" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_007" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_008" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_009" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_010" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_011" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_012" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_013" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_014" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="g_bld_office_wing_ext" enabled="true"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_bld_office_wing_ext" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

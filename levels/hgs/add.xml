@@ -13,6 +13,9 @@
 		<unit				path="units/pd2_mod_hgs/architecture/basement_2" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
 		<model				path="units/pd2_mod_hgs/architecture/basement_2" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/bld_office_wing_ext" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/bld_office_wing_ext" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/bld_office_wing_ext" unload="true"/>
 		
 		<unit				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/bunker_door/bunker_door" unload="true"/>
