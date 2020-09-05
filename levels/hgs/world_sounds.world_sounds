@@ -24,6 +24,18 @@
 			<entry key="position" type="vector3" value="-395.618 -644.509 318"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 		</entry>
+		<entry index="4" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum_loop_mono_cone_att_01"/>
+			<entry key="name" type="string" value="snd_electricHum_003"/>
+			<entry key="position" type="vector3" value="-1907.92 1242.18 345.755"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
+		<entry index="5" type="table">
+			<entry key="emitter_event" type="string" value="emitter_ac_hum_loop_mono_cone_att_01"/>
+			<entry key="name" type="string" value="snd_electricHum_004"/>
+			<entry key="position" type="vector3" value="-2220.11 -42.1756 329.008"/>
+			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 	</entry>

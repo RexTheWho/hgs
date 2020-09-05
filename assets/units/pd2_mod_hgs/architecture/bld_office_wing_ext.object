@@ -16,6 +16,7 @@
 			<object name="c_bld_office_wing_ext_012" collision_type="box" padding="-2.5" />
 			<object name="c_bld_office_wing_ext_013" collision_type="box" padding="-2.5" />
 			<object name="c_bld_office_wing_ext_014" collision_type="box" padding="-2.5" />
+			<object name="c_bld_office_wing_ext_015" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces>
