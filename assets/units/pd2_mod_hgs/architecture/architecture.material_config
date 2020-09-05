@@ -76,6 +76,46 @@
 		<normal_layer0_texture		file="units/payday2/architecture/ind/ind_ext_docks_ground_d_nm"/>
 		<diffuse_layer1_texture		file="units/payday2/architecture/ind/ind_ext_docks_pavement_mask_df"/>
 	</material>
+	
+	
+	<material name="mat_ground_ab_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" decal_material="concrete" >
+		<diffuse_texture			file="units/pd2_dlc1/props/ind_prop_mill_ground/ind_prop_mill_ground_b_df"/>
+		<bump_normal_texture		file="units/pd2_dlc1/props/ind_prop_mill_ground/ind_prop_mill_ground_b_nm"/>
+		<diffuse_layer0_texture		file="units/pd2_dlc1/props/ind_prop_mill_ground/ind_prop_mill_ground_a_df"/>
+		<normal_layer0_texture		file="units/pd2_dlc1/props/ind_prop_mill_ground/ind_prop_mill_ground_a_nm"/>
+		<diffuse_layer1_texture		file="units/pd2_dlc1/props/ind_prop_mill_ground/ind_prop_mill_ground_mask_df"/>
+	</material>
+    <material name="mat_bricks_blend" render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2" decal_material="concrete" >
+        <diffuse_layer0_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_brick_wall_01_df"/>
+        <diffuse_layer2_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_brick_wall_01_gsma"/>
+        <bump_normal_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_brick_wall_01_nm"/>
+        <diffuse_texture		file="units/pd2_dlc_rvd/architecture/rvd_ext/ext_textures/rvd_ext_concrete_df"/>
+        <material_texture		file="units/pd2_dlc_rvd/architecture/rvd_ext/ext_textures/rvd_ext_concrete_gsma"/>
+        <normal_layer0_texture	file="units/pd2_dlc_rvd/architecture/rvd_ext/ext_textures/rvd_ext_concrete_nm"/>
+        <variable value="0.25 0.7 0" type="vector3" name="blend_control"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
+    <material name="mat_concrete" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2" decal_material="concrete" >
+        <diffuse_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_concrete_floor_01_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_concrete_floor_01_nm"/>
+        <material_texture		file="units/pd2_dlc_mad/architecture/mad_sawmill/mad_concrete_floor_01_gsma"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
+    <material name="mat_window" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" decal_material="glass_breakable" >
+        <diffuse_texture		file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_night_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/ind/ind_ext_dock_bld_window_glass_nm"/>
+    </material>
+	
+    <material name="mat_godray" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/payday2_cash/safe_room/cash_light_rays_df"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="match" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_steel"/>
+    </material>
 </materials>
 
 

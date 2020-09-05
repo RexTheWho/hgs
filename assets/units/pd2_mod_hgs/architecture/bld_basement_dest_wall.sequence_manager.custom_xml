@@ -1,0 +1,22 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'state_1'" triggable="true">
+			<object			enabled="true" name="'g_bld_basement_dest_wall_1'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_dest_wall_1'"/>
+			<body			enabled="true" name="'body_static_solid'"/>
+
+			<object			enabled="false" name="'g_bld_basement_dest_wall_2'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_dest_wall_2'"/>
+			<body			enabled="false" name="'body_static_dest'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_2'" triggable="true">
+			<object			enabled="false" name="'g_bld_basement_dest_wall_1'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_dest_wall_1'"/>
+			<body			enabled="false" name="'body_static_solid'"/>
+
+			<object			enabled="true" name="'g_bld_basement_dest_wall_2'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_dest_wall_2'"/>
+			<body			enabled="true" name="'body_static_dest'"/>
+		</sequence>
+	</unit>
+</table>

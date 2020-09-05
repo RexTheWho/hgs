@@ -15,8 +15,8 @@
 		<entry index="2" type="table">
 			<entry key="emitter_event" type="string" value="emitter_ac_hum_loop_mono_cone_att_01"/>
 			<entry key="name" type="string" value="snd_electricHum_002"/>
-			<entry key="position" type="vector3" value="-927.611 1133.62 387.527"/>
-			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+			<entry key="position" type="vector3" value="-872.389 1241.38 392.527"/>
+			<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 		</entry>
 		<entry index="3" type="table">
 			<entry key="emitter_event" type="string" value="emitter_muffled_shop_music"/>
