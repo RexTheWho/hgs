@@ -264,7 +264,7 @@
 			<unit_data _prev_pos="-76.8838 173.884 0" _prev_rot="0 0 0.99863 -0.0523359" continent="world" local_pos="-91.6897 -6.00655 0" local_rot="0 0 -0.75471 -0.656059" mesh_variation="state_interaction_disabled" name="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" name_id="ind_interactable_shipping_crate_005" position="-76.8838 173.884 0" rotation="0 0 0.99863 -0.0523359" unit_id="100102"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2815 15 400" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_001" position="-2815 15 400" rotation="0 0 1 4.37114e-008" unit_id="100105"/>
+			<unit_data _prev_pos="-2815 15 400" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_001" position="-2815 29 400" rotation="0 0 1 4.37114e-008" unit_id="100105"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3215 14.9999 400" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_003" position="-3215 14.9999 400" rotation="0 0 0.707107 0.707107" unit_id="100107"/>
@@ -848,7 +848,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2815 15 400" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_002" position="-2415 15 400" rotation="0 0 1 4.37114e-008" unit_id="100106"/>
+			<unit_data _prev_pos="-2415 29 400" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_120" name_id="air_prop_runway_fence_120_002" position="-2415 29 400" rotation="0 0 1 4.37114e-008" unit_id="100106"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="329.244 -240.237 -325" _prev_rot="0 0 -0.67559 -0.737277" continent="world" local_pos="18.3096 -2.30842 75" local_rot="0 0 -0.0610491 0.998135" name="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_box_e" name_id="ind_prop_warehouse_box_e_006" position="319.25 -240.586 -325" rotation="0 0 -0.67559 -0.737277" unit_id="100147"/>
@@ -1694,6 +1694,120 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1558.42 2493.52 0" _prev_rot="0 0 0.999048 0.0436195" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc" name_id="ind_prop_military_ibc_004" position="-1558.42 2493.52 0" rotation="0 0 0.656059 0.75471" unit_id="100532"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/architecture/bld_fencewall_ext" name_id="bld_fencewall_ext_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100533"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3000 6600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_001" position="-3000 6600 0" rotation="0 0 0 -1" unit_id="100534"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2650 6900 0" _prev_rot="0.0455388 -0.0743125 -0.52051 -0.849396" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_002" position="-2712.56 6777.22 -124.971" rotation="0.0455388 -0.0743125 -0.52051 -0.849396" unit_id="100535"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1800 6550 0" _prev_rot="-0.0103811 0.0140292 -0.594732 -0.803734" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_003" position="-1800 6550 0" rotation="-0.0103811 0.0140292 -0.594732 -0.803734" unit_id="100536"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="250 6650 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_004" position="250 6650 0" rotation="0 0 0 -1" unit_id="100537"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="680.294 6961.72 -168" _prev_rot="0 0 0.92388 0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_005" position="680.294 6961.72 -168" rotation="0 0 0.92388 0.382683" unit_id="100538"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1050 6550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_006" position="1050 6550 0" rotation="0 0 0.707107 -0.707107" unit_id="100539"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-77410.9 -21499.2 0" _prev_rot="0 0 0.979925 -0.199368" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2" name_id="str_bdrop_buildings_forest_v2_001" position="-67857.5 -44005.6 0" rotation="0 0 0.979925 -0.199368" unit_id="100540"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2500 9150 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_007" position="-2500 9150 0" rotation="0 0 0.382683 -0.92388" unit_id="100541"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-201.903 9538.91 0" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_008" position="-166.547 8796.45 0" rotation="0 0 0.382683 -0.92388" unit_id="100542"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4250 14650 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_bdrop_triggs_block_57x16" name_id="ind_bdrop_triggs_block_57x16_001" position="4250 14650 0" rotation="0 0 -0.707107 -0.707107" unit_id="100543"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10050 13650 0" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_bdrop_house_02_24x16" name_id="ind_bdrop_triggs_block_57x16_002" position="9600 16000 0" rotation="0 0 1 -0" unit_id="100544"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10450 13100 0" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_bdrop_house_02_24x16" name_id="ind_bdrop_triggs_block_57x16_003" position="-10450 13100 0" rotation="0 0 0.92388 -0.382683" unit_id="100545"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8646.88 14903.1 0" _prev_rot="0 0 0.92388 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_bdrop_house_05_24x16" name_id="ind_bdrop_triggs_block_57x16_004" position="-8328.68 15221.3 0" rotation="0 0 0.92388 -0.382683" unit_id="100546"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="680.294 6961.72 -168" _prev_rot="0 0 0.92388 0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_trees_dryleaves01" name_id="urban_trees_dryleaves01_009" position="2165.22 3355.48 -168" rotation="0 0 0.92388 0.382683" unit_id="100547"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-515.068 5454.81 0" _prev_rot="0 0 -0.669131 -0.743145" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_bus_metro_crashed/str_vehicle_bus_metro_crashed" name_id="str_vehicle_bus_metro_crashed_001" position="-515.068 5454.81 0" rotation="0 0 -0.669131 -0.743145" unit_id="100548"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1591.42 7058.58 0" _prev_rot="0 0 0.382683 -0.92388" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/sub/sub_ext_crater_entrance_debris_pile/sub_ext_crater_entrance_debris_pile" name_id="sub_ext_crater_entrance_debris_pile_001" position="-1591.42 7058.58 0" rotation="0 0 0.382683 -0.92388" unit_id="100549"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2286.68 6149.18 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence002_256" name_id="fence002_256_002" position="-2286.68 6149.18 0" rotation="0 0 0.707107 -0.707107" unit_id="100550"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1626.08 6149.18 28.0303" _prev_rot="-0.0308436 0.0308436 0.706434 -0.706434" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence002_256" name_id="fence002_256_003" position="-1626.08 6149.18 28.0303" rotation="-0.0308436 0.0308436 0.706434 -0.706434" unit_id="100551"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1024.99 6149.18 44.2776" _prev_rot="0.0123407 -0.0123407 0.706999 -0.706999" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence002_256" name_id="fence002_256_004" position="-1024.99 6149.18 44.2776" rotation="0.0123407 -0.0123407 0.706999 -0.706999" unit_id="100552"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1024.99 6149.19 44.278" _prev_rot="0.0123407 -0.0123407 0.706999 -0.706999" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence_cover001_256" name_id="fence002_256_005" position="-1024.99 6149.19 44.278" rotation="0.0123407 -0.0123407 0.706999 -0.706999" unit_id="100553"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1820.92 6149.19 23.9946" _prev_rot="-0.0123407 0.0123407 0.706999 -0.706999" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_urban/fence_cover001_256" name_id="fence002_256_006" position="-1820.92 6149.19 23.9946" rotation="-0.0185099 0.0185099 0.706864 -0.706864" unit_id="100554"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-966.131 2073.23 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_f" name_id="gen_prop_cementbags_f_001" position="-966.131 2073.23 0" rotation="0 0 1 4.37114e-008" unit_id="100555"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-767.88 2072.98 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_f" name_id="gen_prop_cementbags_f_002" position="-767.88 2072.98 0" rotation="0 0 0 -1" unit_id="100556"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-814.883 1911.13 -27.5908" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_f" name_id="gen_prop_cementbags_f_003" position="-814.883 1911.13 -27.5908" rotation="0 0 0 -1" unit_id="100557"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-979.918 1951.05 6.51256" _prev_rot="0 0 0 -1" continent="world" local_pos="-137.035 39.9202 34.1033" local_rot="0 0 0 1" name="units/pd2_dlc_des/props/des_prop_barrel/des_prop_barrel" name_id="des_prop_barrel_011" position="-951.918 1951.05 6.51256" rotation="0 0 0 -1" unit_id="100558"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1073.9 1930.14 6.53575" _prev_rot="0 0 0.492424 -0.870356" continent="world" local_pos="-231.017 19.0101 34.1265" local_rot="0 0 -0.492424 0.870356" name="units/pd2_dlc_des/props/des_prop_barrel/des_prop_barrel" name_id="des_prop_barrel_012" position="-1045.9 1930.14 6.53575" rotation="0 0 0.492424 -0.870356" unit_id="100559"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1001.73 1824.94 5.40824" _prev_rot="0 0 0.66262 -0.748956" continent="world" local_pos="-158.847 -86.1899 32.999" local_rot="0 0 -0.66262 0.748956" name="units/world/props/desert/des_prop_con_wheelbarrow/des_prop_con_wheelbarrow" name_id="des_prop_con_wheelbarrow_002" position="-973.73 1824.94 5.40824" rotation="0 0 0.66262 -0.748956" unit_id="100560"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3064.95 2408.89 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_008" position="-3064 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100561"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3064 2410 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_009" position="-2814 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100562"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2814 2410 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_010" position="-2571 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100563"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1891 2410 405" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_011" position="-1891 2410 405" rotation="0 0 -0.707107 -0.707107" unit_id="100564"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="289 2410 405" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_012" position="289 2410 405" rotation="0 0 -0.707107 -0.707107" unit_id="100565"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="289 2410 405" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_013" position="889 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100566"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="889 2410 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_014" position="1139 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100567"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1139 2410 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_015" position="1422 2410 400" rotation="0 0 -0.707107 -0.707107" unit_id="100568"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="190.469 2534.99 400" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_016" position="176.469 2592.99 400" rotation="0 0 1 -0" unit_id="100569"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="176.469 2592.99 400" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_017" position="-1798.53 2592.99 400" rotation="0 0 1 -0" unit_id="100570"/>
 		</table>
 	</statics>
 	<values>

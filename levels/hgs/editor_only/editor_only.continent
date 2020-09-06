@@ -555,6 +555,9 @@
 		<table>
 			<unit_data _prev_pos="-1350 4350 -400" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_8x3m_026" only_exists_in_editor="true" position="-1350 4350 -400" rotation="0 0 0 -1" unit_id="200182"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-1600 2000 0" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_8x3m_027" only_exists_in_editor="true" position="-2400 2000 0" rotation="0 0 0 -1" unit_id="200183"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

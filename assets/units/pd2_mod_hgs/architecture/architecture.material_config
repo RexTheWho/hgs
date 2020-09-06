@@ -121,6 +121,13 @@
         <bump_normal_texture	file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_nm"/>
         <opacity_texture		file="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_stairs_alpha_df"/>
     </material>
+	
+    <material name="mat_plasterbrick_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2" decal_material="concrete" >
+        <diffuse_texture		file="units/payday2/architecture/safehouse/safehouse_plasterwall_03b_df"/>
+        <diffuse_layer0_texture	file="units/payday2/architecture/safehouse/safehouse_plasterwall_01b_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/safehouse/safehouse_plasterwall_01a_nm"/>
+        <diffuse_layer1_texture	file="units/payday2/architecture/safehouse/safehouse_plasterwall_03mask_df"/>
+    </material>
 </materials>
 
 
