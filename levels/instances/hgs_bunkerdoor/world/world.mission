@@ -1538,16 +1538,6 @@
 							<entry key="obj_name" type="idstring" value="6238b94f58205d1a"/>
 							<entry key="unit_id" type="number" value="100020"/>
 						</entry>
-						<entry index="2" type="table">
-							<entry key="guis_id" type="number" value="1"/>
-							<entry key="obj_name" type="idstring" value="6238b94f58205d1a"/>
-							<entry key="unit_id" type="number" value="100019"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="guis_id" type="number" value="1"/>
-							<entry key="obj_name" type="idstring" value="6238b94f58205d1a"/>
-							<entry key="unit_id" type="number" value="100026"/>
-						</entry>
 					</entry>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -1567,16 +1557,6 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="obstacle_list" type="table">
-						<entry index="1" type="table">
-							<entry key="guis_id" type="number" value="1"/>
-							<entry key="obj_name" type="idstring" value="6238b94f58205d1a"/>
-							<entry key="unit_id" type="number" value="100019"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="guis_id" type="number" value="1"/>
-							<entry key="obj_name" type="idstring" value="6238b94f58205d1a"/>
-							<entry key="unit_id" type="number" value="100026"/>
-						</entry>
 					</entry>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -1651,7 +1631,7 @@
 					<entry key="amount" type="number" value="1"/>
 					<entry key="amount_random" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
@@ -1721,7 +1701,7 @@
 					<entry key="amount" type="number" value="1"/>
 					<entry key="amount_random" type="number" value="0"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">

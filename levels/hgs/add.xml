@@ -33,6 +33,9 @@
 		<object				path="units/pd2_mod_hgs/architecture/bld_basement_wing_int_caps" unload="true"/>
 		<model				path="units/pd2_mod_hgs/architecture/bld_basement_wing_int_caps" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_hgs/architecture/bld_basement_wing_int_caps" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/bld_storeroom_int" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/bld_storeroom_int" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/bld_storeroom_int" unload="true"/>
 		
 		<unit				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true"/>

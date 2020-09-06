@@ -40,6 +40,7 @@
 			<object name="c_bld_basement_wing_int_036" collision_type="convex" padding="-2.5" />
 			<object name="c_bld_basement_wing_int_037" collision_type="box" padding="-2.5" />
 			<object name="c_bld_basement_wing_int_038" collision_type="box" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_039" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces>
