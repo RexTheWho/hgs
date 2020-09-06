@@ -18,6 +18,36 @@
 		<body name="body_static_wall_05" enabled="true" template="static">
 			<object name="c_bld_basement_wing_int_cap05" collision_type="box" padding="-2.5" />
 		</body>
+		
+		<body name="body_static_hole_01" enabled="false" template="static">
+			<object name="c_bld_basement_wing_int_hole01_001" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole01_002" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole01_003" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_static_hole_02" enabled="false" template="static">
+			<object name="c_bld_basement_wing_int_hole02_001" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole02_002" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole02_003" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole02_004" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_static_hole_03" enabled="false" template="static">
+			<object name="c_bld_basement_wing_int_hole03_001" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole03_002" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole03_003" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole03_004" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_static_hole_04" enabled="false" template="static">
+			<object name="c_bld_basement_wing_int_hole04_001" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole04_002" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole04_003" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole04_004" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_static_hole_05" enabled="false" template="static">
+			<object name="c_bld_basement_wing_int_hole05_001" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole05_002" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole05_003" collision_type="convex" padding="-2.5" />
+			<object name="c_bld_basement_wing_int_hole05_004" collision_type="convex" padding="-2.5" />
+		</body>
 	</bodies>
 
 	<decal_surfaces>
@@ -26,6 +56,11 @@
 		<decal_mesh name="g_bld_basement_wing_int_cap03"	enabled="true"/>
 		<decal_mesh name="g_bld_basement_wing_int_cap04"	enabled="true"/>
 		<decal_mesh name="g_bld_basement_wing_int_cap05"	enabled="true"/>
+		<decal_mesh name="g_bld_basement_wing_int_hole01"	enabled="false"/>
+		<decal_mesh name="g_bld_basement_wing_int_hole02"	enabled="false"/>
+		<decal_mesh name="g_bld_basement_wing_int_hole03"	enabled="false"/>
+		<decal_mesh name="g_bld_basement_wing_int_hole04"	enabled="false"/>
+		<decal_mesh name="g_bld_basement_wing_int_hole05"	enabled="false"/>
 	</decal_surfaces>
 	
 	<graphics>
@@ -34,5 +69,10 @@
 		<object name="g_bld_basement_wing_int_cap03"	enabled="true"	shadow_caster="true" />
 		<object name="g_bld_basement_wing_int_cap04"	enabled="true"	shadow_caster="true" />
 		<object name="g_bld_basement_wing_int_cap05"	enabled="true"	shadow_caster="true" />
+		<object name="g_bld_basement_wing_int_hole01"	enabled="false"	shadow_caster="true" />
+		<object name="g_bld_basement_wing_int_hole02"	enabled="false"	shadow_caster="true" />
+		<object name="g_bld_basement_wing_int_hole03"	enabled="false"	shadow_caster="true" />
+		<object name="g_bld_basement_wing_int_hole04"	enabled="false"	shadow_caster="true" />
+		<object name="g_bld_basement_wing_int_hole05"	enabled="false"	shadow_caster="true" />
 	</graphics>
 </dynamic_object>

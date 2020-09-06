@@ -1,63 +1,113 @@
 <table>
 	<unit>
+	
 		<sequence editable_state="true" name="'disable_wall_01'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap01'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap01'"/>
 			<body			enabled="false" name="'body_static_wall_01'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole01'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole01'"/>
+			<body			enabled="true" name="'body_static_hole_01'"/>
 		</sequence>
 		<sequence editable_state="true" name="'disable_wall_02'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap02'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap02'"/>
 			<body			enabled="false" name="'body_static_wall_02'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole02'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole02'"/>
+			<body			enabled="true" name="'body_static_hole_02'"/>
 		</sequence>
 		<sequence editable_state="true" name="'disable_wall_03'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap03'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap03'"/>
 			<body			enabled="false" name="'body_static_wall_03'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole03'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole03'"/>
+			<body			enabled="true" name="'body_static_hole_03'"/>
 		</sequence>
 		<sequence editable_state="true" name="'disable_wall_04'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap04'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap04'"/>
 			<body			enabled="false" name="'body_static_wall_04'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole04'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole04'"/>
+			<body			enabled="true" name="'body_static_hole_04'"/>
 		</sequence>
 		<sequence editable_state="true" name="'disable_wall_05'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap05'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap05'"/>
 			<body			enabled="false" name="'body_static_wall_05'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole05'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole05'"/>
+			<body			enabled="true" name="'body_static_hole_05'"/>
 		</sequence>
+		
+		
 		<sequence editable_state="true" name="'disable_all'" triggable="true">
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap01'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap01'"/>
 			<body			enabled="false" name="'body_static_wall_01'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole01'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole01'"/>
+			<body			enabled="true" name="'body_static_hole_01'"/>
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap02'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap02'"/>
 			<body			enabled="false" name="'body_static_wall_02'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole02'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole02'"/>
+			<body			enabled="true" name="'body_static_hole_02'"/>
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap03'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap03'"/>
 			<body			enabled="false" name="'body_static_wall_03'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole03'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole03'"/>
+			<body			enabled="true" name="'body_static_hole_03'"/>
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap04'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap04'"/>
 			<body			enabled="false" name="'body_static_wall_04'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole04'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole04'"/>
+			<body			enabled="true" name="'body_static_hole_04'"/>
 			<object			enabled="false" name="'g_bld_basement_wing_int_cap05'"/>
 			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_cap05'"/>
 			<body			enabled="false" name="'body_static_wall_05'"/>
+			<object			enabled="true" name="'g_bld_basement_wing_int_hole05'"/>
+			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_hole05'"/>
+			<body			enabled="true" name="'body_static_hole_05'"/>
 		</sequence>
+		
+		
 		<sequence editable_state="true" name="'enable_all'" triggable="true">
 			<object			enabled="true" name="'g_bld_basement_wing_int_cap01'"/>
 			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_cap01'"/>
 			<body			enabled="true" name="'body_static_wall_01'"/>
+			<object			enabled="false" name="'g_bld_basement_wing_int_hole01'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_hole01'"/>
+			<body			enabled="false" name="'body_static_hole_01'"/>
 			<object			enabled="true" name="'g_bld_basement_wing_int_cap02'"/>
 			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_cap02'"/>
 			<body			enabled="true" name="'body_static_wall_02'"/>
+			<object			enabled="false" name="'g_bld_basement_wing_int_hole02'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_hole02'"/>
+			<body			enabled="false" name="'body_static_hole_02'"/>
 			<object			enabled="true" name="'g_bld_basement_wing_int_cap03'"/>
 			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_cap03'"/>
 			<body			enabled="true" name="'body_static_wall_03'"/>
+			<object			enabled="false" name="'g_bld_basement_wing_int_hole03'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_hole03'"/>
+			<body			enabled="false" name="'body_static_hole_03'"/>
 			<object			enabled="true" name="'g_bld_basement_wing_int_cap04'"/>
 			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_cap04'"/>
 			<body			enabled="true" name="'body_static_wall_04'"/>
+			<object			enabled="false" name="'g_bld_basement_wing_int_hole04'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_hole04'"/>
+			<body			enabled="false" name="'body_static_hole_04'"/>
 			<object			enabled="true" name="'g_bld_basement_wing_int_cap05'"/>
 			<decal_mesh		enabled="true" name="'g_bld_basement_wing_int_cap05'"/>
 			<body			enabled="true" name="'body_static_wall_05'"/>
+			<object			enabled="false" name="'g_bld_basement_wing_int_hole05'"/>
+			<decal_mesh		enabled="false" name="'g_bld_basement_wing_int_hole05'"/>
+			<body			enabled="false" name="'body_static_hole_05'"/>
 		</sequence>
 	</unit>
 </table>

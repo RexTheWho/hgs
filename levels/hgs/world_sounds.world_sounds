@@ -36,6 +36,18 @@
 			<entry key="position" type="vector3" value="-2220.11 -42.1756 329.008"/>
 			<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
 		</entry>
+		<entry index="6" type="table">
+			<entry key="emitter_event" type="string" value="emitter_electric_power_box_01"/>
+			<entry key="name" type="string" value="snd_electricHum_002"/>
+			<entry key="position" type="vector3" value="1169.72 607.09 117.357"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="7" type="table">
+			<entry key="emitter_event" type="string" value="emitter_electric_power_box_01"/>
+			<entry key="name" type="string" value="snd_electricHum_003"/>
+			<entry key="position" type="vector3" value="-3041.48 704.019 86.5655"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 	</entry>
