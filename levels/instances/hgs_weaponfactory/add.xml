@@ -1,0 +1,14 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/props/weapon_factory/weapon_factory" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/weapon_factory/weapon_factory" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/weapon_factory/weapon_factory" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/weapon_factory/weapon_factory" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/weapon_factory/weapon_factory" unload="true"/>
+	</add>
+</table>

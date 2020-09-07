@@ -1484,53 +1484,6 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="400"/>
-				<entry key="environment" type="string" value=".map/environments/hgs_interior"/>
-				<entry key="filter_list" type="table">
-					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="2" type="string" value="644be78b2651c798"/>
-					<entry index="3" type="string" value="c25af559c7e1d69c"/>
-					<entry index="4" type="string" value="ac403b8f792138ad"/>
-					<entry index="5" type="string" value="457904ce74fa1005"/>
-					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="cd0d63956c019dc0"/>
-					<entry index="8" type="string" value="6fcd51beb559e85c"/>
-					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
-					<entry index="10" type="string" value="35325076eb5a2684"/>
-					<entry index="11" type="string" value="cfd999417e8eb72d"/>
-					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="13" type="string" value="c45e91f4a9d72822"/>
-					<entry index="14" type="string" value="48b53ca3bf280008"/>
-					<entry index="15" type="string" value="e36a12365a151b14"/>
-					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
-					<entry index="17" type="string" value="79632d2b8dab1c23"/>
-					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
-					<entry index="19" type="string" value="b5663c81d7db7310"/>
-					<entry index="20" type="string" value="13d7817215360151"/>
-					<entry index="21" type="string" value="76078014daa529c8"/>
-					<entry index="22" type="string" value="fb725a62e7857072"/>
-					<entry index="23" type="string" value="312d3f85560b8f82"/>
-					<entry index="24" type="string" value="002c8c522e139b16"/>
-					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
-					<entry index="26" type="string" value="fb96a0addd59b018"/>
-				</entry>
-				<entry key="height" type="number" value="400"/>
-				<entry key="name" type="string" value="envarea_interior_002"/>
-				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-2400 800 0"/>
-				<entry key="prio" type="number" value="100"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="transition_time" type="number" value="0.1"/>
-				<entry key="type" type="string" value="box"/>
-				<entry key="width" type="number" value="600"/>
-			</entry>
-			<entry index="3" type="table">
-				<entry key="bezier_curve" type="table">
-					<entry index="1" type="number" value="0"/>
-					<entry index="2" type="number" value="0"/>
-					<entry index="3" type="number" value="1"/>
-					<entry index="4" type="number" value="1"/>
-				</entry>
 				<entry key="depth" type="number" value="1800"/>
 				<entry key="environment" type="string" value=".map/environments/hgs_interior"/>
 				<entry key="filter_list" type="table">
@@ -1571,54 +1524,7 @@
 				<entry key="type" type="string" value="box"/>
 				<entry key="width" type="number" value="1900"/>
 			</entry>
-			<entry index="4" type="table">
-				<entry key="bezier_curve" type="table">
-					<entry index="1" type="number" value="0"/>
-					<entry index="2" type="number" value="0"/>
-					<entry index="3" type="number" value="1"/>
-					<entry index="4" type="number" value="1"/>
-				</entry>
-				<entry key="depth" type="number" value="1200"/>
-				<entry key="environment" type="string" value=".map/environments/hgs_interior"/>
-				<entry key="filter_list" type="table">
-					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
-					<entry index="2" type="string" value="644be78b2651c798"/>
-					<entry index="3" type="string" value="c25af559c7e1d69c"/>
-					<entry index="4" type="string" value="ac403b8f792138ad"/>
-					<entry index="5" type="string" value="457904ce74fa1005"/>
-					<entry index="6" type="string" value="20458ffc6d388c0f"/>
-					<entry index="7" type="string" value="cd0d63956c019dc0"/>
-					<entry index="8" type="string" value="6fcd51beb559e85c"/>
-					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
-					<entry index="10" type="string" value="35325076eb5a2684"/>
-					<entry index="11" type="string" value="cfd999417e8eb72d"/>
-					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
-					<entry index="13" type="string" value="c45e91f4a9d72822"/>
-					<entry index="14" type="string" value="48b53ca3bf280008"/>
-					<entry index="15" type="string" value="e36a12365a151b14"/>
-					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
-					<entry index="17" type="string" value="79632d2b8dab1c23"/>
-					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
-					<entry index="19" type="string" value="b5663c81d7db7310"/>
-					<entry index="20" type="string" value="13d7817215360151"/>
-					<entry index="21" type="string" value="76078014daa529c8"/>
-					<entry index="22" type="string" value="fb725a62e7857072"/>
-					<entry index="23" type="string" value="312d3f85560b8f82"/>
-					<entry index="24" type="string" value="002c8c522e139b16"/>
-					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
-					<entry index="26" type="string" value="fb96a0addd59b018"/>
-				</entry>
-				<entry key="height" type="number" value="800"/>
-				<entry key="name" type="string" value="envarea_interior_004"/>
-				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-1400 0 0"/>
-				<entry key="prio" type="number" value="100"/>
-				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-				<entry key="transition_time" type="number" value="1"/>
-				<entry key="type" type="string" value="box"/>
-				<entry key="width" type="number" value="1400"/>
-			</entry>
-			<entry index="5" type="table">
+			<entry index="3" type="table">
 				<entry key="bezier_curve" type="table">
 					<entry index="1" type="number" value="0"/>
 					<entry index="2" type="number" value="0"/>
@@ -1664,6 +1570,100 @@
 				<entry key="transition_time" type="number" value="0.1"/>
 				<entry key="type" type="string" value="box"/>
 				<entry key="width" type="number" value="1000"/>
+			</entry>
+			<entry index="4" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="400"/>
+				<entry key="environment" type="string" value=".map/environments/hgs_interior"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="400"/>
+				<entry key="name" type="string" value="envarea_interior_002"/>
+				<entry key="permanent" type="boolean" value="false"/>
+				<entry key="position" type="vector3" value="-2400 800 0"/>
+				<entry key="prio" type="number" value="100"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="0.1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="600"/>
+			</entry>
+			<entry index="5" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="1200"/>
+				<entry key="environment" type="string" value=".map/environments/hgs_interior"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="800"/>
+				<entry key="name" type="string" value="envarea_interior_004"/>
+				<entry key="permanent" type="boolean" value="false"/>
+				<entry key="position" type="vector3" value="-1400 0 0"/>
+				<entry key="prio" type="number" value="100"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="1400"/>
 			</entry>
 			<entry index="6" type="table">
 				<entry key="bezier_curve" type="table">
@@ -1735,6 +1735,102 @@
 		<entry key="portals" type="table">
 		</entry>
 		<entry key="unit_groups" type="table">
+			<entry key="basement" type="table">
+				<entry key="ids" type="table">
+					<entry index="100002" type="boolean" value="true"/>
+					<entry index="100003" type="boolean" value="true"/>
+					<entry index="100004" type="boolean" value="true"/>
+					<entry index="100005" type="boolean" value="true"/>
+					<entry index="100006" type="boolean" value="true"/>
+					<entry index="100068" type="boolean" value="true"/>
+					<entry index="100069" type="boolean" value="true"/>
+					<entry index="100070" type="boolean" value="true"/>
+					<entry index="100071" type="boolean" value="true"/>
+					<entry index="100072" type="boolean" value="true"/>
+					<entry index="100074" type="boolean" value="true"/>
+					<entry index="100077" type="boolean" value="true"/>
+					<entry index="100078" type="boolean" value="true"/>
+					<entry index="100079" type="boolean" value="true"/>
+					<entry index="100080" type="boolean" value="true"/>
+					<entry index="100103" type="boolean" value="true"/>
+					<entry index="100104" type="boolean" value="true"/>
+					<entry index="100113" type="boolean" value="true"/>
+					<entry index="100123" type="boolean" value="true"/>
+					<entry index="100124" type="boolean" value="true"/>
+					<entry index="100125" type="boolean" value="true"/>
+					<entry index="100126" type="boolean" value="true"/>
+					<entry index="100127" type="boolean" value="true"/>
+					<entry index="100128" type="boolean" value="true"/>
+					<entry index="100141" type="boolean" value="true"/>
+					<entry index="100142" type="boolean" value="true"/>
+					<entry index="100145" type="boolean" value="true"/>
+					<entry index="100146" type="boolean" value="true"/>
+					<entry index="100147" type="boolean" value="true"/>
+					<entry index="100177" type="boolean" value="true"/>
+					<entry index="100207" type="boolean" value="true"/>
+					<entry index="100208" type="boolean" value="true"/>
+					<entry index="100215" type="boolean" value="true"/>
+					<entry index="100216" type="boolean" value="true"/>
+					<entry index="100218" type="boolean" value="true"/>
+					<entry index="100219" type="boolean" value="true"/>
+					<entry index="100220" type="boolean" value="true"/>
+					<entry index="100221" type="boolean" value="true"/>
+					<entry index="100222" type="boolean" value="true"/>
+					<entry index="100223" type="boolean" value="true"/>
+					<entry index="100225" type="boolean" value="true"/>
+					<entry index="100302" type="boolean" value="true"/>
+					<entry index="100303" type="boolean" value="true"/>
+					<entry index="100304" type="boolean" value="true"/>
+					<entry index="100305" type="boolean" value="true"/>
+					<entry index="100322" type="boolean" value="true"/>
+					<entry index="100392" type="boolean" value="true"/>
+					<entry index="100393" type="boolean" value="true"/>
+					<entry index="100394" type="boolean" value="true"/>
+					<entry index="100424" type="boolean" value="true"/>
+					<entry index="100425" type="boolean" value="true"/>
+					<entry index="100441" type="boolean" value="true"/>
+					<entry index="100449" type="boolean" value="true"/>
+					<entry index="100450" type="boolean" value="true"/>
+					<entry index="100451" type="boolean" value="true"/>
+					<entry index="100571" type="boolean" value="true"/>
+					<entry index="100572" type="boolean" value="true"/>
+					<entry index="100573" type="boolean" value="true"/>
+				</entry>
+				<entry key="shapes" type="table">
+					<entry index="1" type="table">
+						<entry key="depth" type="number" value="800"/>
+						<entry key="height" type="number" value="800"/>
+						<entry key="position" type="vector3" value="0 0 -400"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1000"/>
+					</entry>
+					<entry index="2" type="table">
+						<entry key="depth" type="number" value="2400"/>
+						<entry key="height" type="number" value="1200"/>
+						<entry key="position" type="vector3" value="0 800 0"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1600"/>
+					</entry>
+					<entry index="3" type="table">
+						<entry key="depth" type="number" value="2300"/>
+						<entry key="height" type="number" value="400"/>
+						<entry key="position" type="vector3" value="-1200 -2300 -400"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="2300"/>
+					</entry>
+					<entry index="4" type="table">
+						<entry key="depth" type="number" value="2400"/>
+						<entry key="height" type="number" value="1200"/>
+						<entry key="position" type="vector3" value="-1400 500 0"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1400"/>
+					</entry>
+				</entry>
+			</entry>
 		</entry>
 	</entry>
 	<entry key="sounds" type="table">

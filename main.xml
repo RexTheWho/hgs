@@ -1,9 +1,14 @@
 <table name="hgs">
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 	<instance id="hgs_bunkerdoor">
 		<add file="levels/instances/hgs_bunkerdoor/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="HudIconsTweakData.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="ElementAreaTrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
 		<include directory="levels/instances/hgs_bunkerdoor">
 			<file file="world.world" type="generic_xml"/>
 			<file file="continents.continents" type="custom_xml"/>
@@ -31,6 +36,40 @@
 			</mod>
 		</script_data_mods>
 	</instance>
+	<instance id="hgs_weaponfactory">
+		<add file="levels/instances/hgs_weaponfactory/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="HudIconsTweakData.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="ElementAreaTrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
+		</hooks>
+		<include directory="levels/instances/hgs_weaponfactory">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/classics/dah/editor only/editor only"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/narratives/classics/pal/lights/lights"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<level ai_group_type="america" briefing_id="level_hgs_brief" id="hgs" max_bags="16" name_id="level_hgs_name">
 		<add file="levels/hgs/add.xml"/>
 		<assets>

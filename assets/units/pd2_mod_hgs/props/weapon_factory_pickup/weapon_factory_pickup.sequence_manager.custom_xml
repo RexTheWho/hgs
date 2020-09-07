@@ -1,0 +1,40 @@
+<table>
+	<unit>
+		<variables>
+			<var_parts value="0"/>
+		</variables>
+		<filter name="'filter_built'">
+			<check value="vars.var_parts == 3"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'add_part_a'" triggable="true">
+			<object enabled="true" name="'g_part_a'"/>
+			<set_variables var_parts="vars.var_parts + 1"/>
+			<interaction filter="'filter_built'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'add_part_b'" triggable="true">
+			<object enabled="true" name="'g_part_b'"/>
+			<set_variables var_parts="vars.var_parts + 1"/>
+			<interaction filter="'filter_built'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'add_part_c'" triggable="true">
+			<object enabled="true" name="'g_part_c'"/>
+			<set_variables var_parts="vars.var_parts + 1"/>
+			<interaction filter="'filter_built'" enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<object enabled="false" name="'g_part_a'"/>
+			<object enabled="false" name="'g_part_b'"/>
+			<object enabled="false" name="'g_part_c'"/>
+			<set_variables var_parts="0"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<run_sequence name="'hide'"/>
+		</sequence>
+		<sequence editable_state="true" name="'load'" triggable="true">
+		</sequence>
+	</unit>
+</table>

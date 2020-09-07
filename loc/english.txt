@@ -40,5 +40,9 @@
 	"hud_equipment_hazard_case":			"Biohazard Container",
 	"hud_carry_golden_ak":					"Golden AK",
 	
+	"hud_equipment_weapon_factory_part_a":	"Weapon Parts Kit A",
+	"hud_equipment_weapon_factory_part_b":	"Weapon Parts Kit B",
+	"hud_equipment_weapon_factory_part_c":	"Weapon Parts Kit C",
+	
 	"":""
 }

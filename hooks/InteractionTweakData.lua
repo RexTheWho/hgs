@@ -26,4 +26,39 @@ Hooks:PostHook(InteractionTweakData,"init","hgs_init",function(self)
 	self.hold_remove_cover_tarp.sound_interupt = "bar_cut_off_arm_cancel"
 	self.hold_remove_cover_tarp.sound_done = "bar_cut_off_arm_finished"
 	
+	--take wep factory
+	self.hold_take_weapon_factory_part_a = {
+		text_id = "hud_int_hold_take_weapon_factory_part_a",
+		equipment_text_id = "hud_action_taking_weapon_factory_parts",
+		interact_distance = 300,
+		sound_start = "bar_turret_ammo",
+		sound_interupt = "bar_turret_ammo_cancel",
+		sound_done = "bar_turret_ammo_finished",
+		timer = 5
+	}
+	self.hold_take_weapon_factory_part_b = deep_clone(self.hold_take_weapon_factory_part_a)
+	self.hold_take_weapon_factory_part_b.text_id = "hud_int_hold_take_weapon_factory_part_b"
+	self.hold_take_weapon_factory_part_c = deep_clone(self.hold_take_weapon_factory_part_a)
+	self.hold_take_weapon_factory_part_c.text_id = "hud_int_hold_take_weapon_factory_part_c"
+	
+	--use wep factory
+	self.hold_use_weapon_factory_part_a = {
+		icon = "equipment_thermite",
+		sound_start = "bar_c4_apply",
+		sound_interupt = "bar_c4_apply_cancel",
+		sound_done = "bar_c4_apply_finished",
+		equipment_consume = true,
+		interact_distance = 200,
+		timer = 5,
+		text_id = "hud_int_hold_weapon_factory_part_a",
+		equipment_text_id = "require_weapon_factory_parts",
+		special_equipment = "weapon_factory_part_a"
+	}
+	self.hold_use_weapon_factory_part_b = deep_clone(self.hold_use_weapon_factory_part_a)
+	self.hold_use_weapon_factory_part_b.text_id = "hud_int_hold_weapon_factory_part_b"
+	self.hold_use_weapon_factory_part_b.special_equipment = "weapon_factory_part_b"
+	self.hold_use_weapon_factory_part_c = deep_clone(self.hold_use_weapon_factory_part_a)
+	self.hold_use_weapon_factory_part_c.text_id = "hud_int_hold_weapon_factory_part_c"
+	self.hold_use_weapon_factory_part_c.special_equipment = "weapon_factory_part_c"
+	
 end)

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import		file="weapon_factory_pickup.glb" type="gltf" create_objects="true"/>
+</modelscript>

@@ -1,0 +1,10 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'open'" triggable="true">
+			<object enabled="false" name="'g_glass'"/>
+		</sequence>
+		<sequence editable_state="true" name="'close'" triggable="true">
+			<object enabled="true" name="'g_glass'"/>
+		</sequence>
+	</unit>
+</table>

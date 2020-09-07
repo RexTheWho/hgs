@@ -23491,6 +23491,29 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="761" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="instance_input_event_001"/>
+				<entry key="id" type="number" value="100760"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="activate"/>
+							<entry key="instance" type="string" value="hgs_weaponfactory_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-856.415 502.288 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="hgs_bunkerdoor_001"/>
@@ -23502,6 +23525,7 @@
 			<entry index="7" type="string" value="hox_estate_security_room_door_002"/>
 			<entry index="8" type="string" value="hox_estate_security_room_door_003"/>
 			<entry index="9" type="string" value="hox_estate_security_room_door_004"/>
+			<entry index="10" type="string" value="hgs_weaponfactory_001"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>
