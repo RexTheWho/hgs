@@ -68,6 +68,15 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<instance id="hgs_escape_sewer">
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="hints.hint" replacement_type="custom_xml" target_ext="hint" target_path="gamedata/hints">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<script_data_mods directory="scriptdata"/>
 		<add file="levels/instances/hgs_escape_sewer/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
@@ -93,7 +102,6 @@
 			<value_node value="levels/narratives/bain/shadow_raid/world"/>
 			<value_node value="levels/instances/unique/wwh/wwh_garage_door/world/world"/>
 		</packages>
-		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>

@@ -4609,9 +4609,13 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100616"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100777"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="445.393 -3309.46 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="700 -6900 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="found_golden_gun"/>
@@ -4711,7 +4715,7 @@
 					<entry key="objective" type="string" value="hgs_find_items"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="480.26 -3449.29 0"/>
+					<entry key="position" type="vector3" value="586.639 -3445.03 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="complete"/>
 					<entry key="sub_objective" type="string" value="none"/>
@@ -4737,9 +4741,25 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100611"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100773"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100787"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100780"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100788"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="383.393 -3309.46 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="1200 -6500 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
@@ -7987,9 +8007,25 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100610"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100774"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100787"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100780"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100788"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="504.393 -3309.46 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="1300 -6500 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="interact"/>
@@ -8087,8 +8123,8 @@
 							<entry key="id" type="number" value="100250"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="434.468 -3392.94 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="700 -6800 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -8492,7 +8528,7 @@
 			</entry>
 			<entry index="264" type="table">
 				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
-				<entry key="editor_name" type="string" value="securityguard_alerted"/>
+				<entry key="editor_name" type="string" value="securityguard_tied"/>
 				<entry key="id" type="number" value="100268"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
@@ -8501,7 +8537,7 @@
 						<entry index="1" type="number" value="100265"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="alerted"/>
+					<entry key="event" type="string" value="tied"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -9456,6 +9492,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100688"/>
 						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100796"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1000 -4700 2000"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -9504,27 +9544,51 @@
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100276"/>
+							<entry key="id" type="number" value="100399"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100278"/>
+							<entry key="id" type="number" value="100270"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100274"/>
+							<entry key="id" type="number" value="100272"/>
 						</entry>
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100272"/>
+							<entry key="id" type="number" value="100274"/>
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100270"/>
+							<entry key="id" type="number" value="100276"/>
 						</entry>
 						<entry index="6" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100399"/>
+							<entry key="id" type="number" value="100278"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100797"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100799"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100801"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100803"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100805"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100807"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-300 -4200 2000"/>
@@ -16850,6 +16914,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100575"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100795"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-300 -6000 2000"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -23893,6 +23961,878 @@
 					<entry key="test_unit" type="string" value="default"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="774" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="got_hazard"/>
+				<entry key="id" type="number" value="100773"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="hazard"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_004"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="hazard"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_003"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="hazard"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_002"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="hazard"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1200 -6600 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="775" type="table">
+				<entry key="class" type="string" value="ElementInstanceInputEvent"/>
+				<entry key="editor_name" type="string" value="got_knife"/>
+				<entry key="id" type="number" value="100774"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="knife"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_004"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="knife"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_003"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="knife"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_002"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="knife"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1300 -6600 2000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="776" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="hgs_secure_gold"/>
+				<entry key="id" type="number" value="100775"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="hgs_secure_gold"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="700 -7100 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="state" type="string" value="complete_and_activate"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="777" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="hgs_secure_gold_complete"/>
+				<entry key="id" type="number" value="100776"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="hgs_secure_gold"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="800 -7100 2000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="complete"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="778" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="found_gold_ak"/>
+				<entry key="id" type="number" value="100777"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100775"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100790"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="700 -7000 2000"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="779" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutputEvent"/>
+				<entry key="editor_name" type="string" value="secured_gold_ak"/>
+				<entry key="id" type="number" value="100778"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="secured_gold_ak"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_004"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="secured_gold_ak"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_003"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="secured_gold_ak"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_002"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="secured_gold_ak"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100776"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100782"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="800 -7000 2000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="780" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="disableNeedToGetLooseItems"/>
+				<entry key="id" type="number" value="100779"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100781"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1240.42 -6742.62 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="781" type="table">
+				<entry key="class" type="string" value="ElementCounter"/>
+				<entry key="editor_name" type="string" value="looseItemsCounter"/>
+				<entry key="id" type="number" value="100780"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="counter_target" type="number" value="2"/>
+					<entry key="digital_gui_unit_ids" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100779"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1240.26 -6677.3 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="782" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="youStillNeedTheLooseItems"/>
+				<entry key="id" type="number" value="100781"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100785"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100784"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="923.501 -7098.83 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="783" type="table">
+				<entry key="class" type="string" value="ElementCounter"/>
+				<entry key="editor_name" type="string" value="goldAkSecuredBeforeLoose"/>
+				<entry key="id" type="number" value="100782"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="counter_target" type="number" value="4"/>
+					<entry key="digital_gui_unit_ids" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100781"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="916.551 -7002.72 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="784" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="hgs_secure_loose_2"/>
+				<entry key="id" type="number" value="100783"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="2"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="hgs_secure_loose"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1131.95 -7030.08 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="complete_and_activate"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="785" type="table">
+				<entry key="class" type="string" value="ElementCounterFilter"/>
+				<entry key="editor_name" type="string" value="looseItemsTakenNone"/>
+				<entry key="id" type="number" value="100784"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="check_type" type="string" value="equal"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100780"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="needed_to_execute" type="string" value="all"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100783"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1132.92 -6949.22 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="value" type="number" value="2"/>
+				</entry>
+			</entry>
+			<entry index="786" type="table">
+				<entry key="class" type="string" value="ElementCounterFilter"/>
+				<entry key="editor_name" type="string" value="looseItemsTakenOne"/>
+				<entry key="id" type="number" value="100785"/>
+				<entry key="module" type="string" value="CoreElementCounter"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="check_type" type="string" value="equal"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100780"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="needed_to_execute" type="string" value="all"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100786"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1232.92 -6949.22 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="value" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="787" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="hgs_secure_loose_1"/>
+				<entry key="id" type="number" value="100786"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="hgs_secure_loose"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1231.95 -7030.08 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="complete_and_activate"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="788" type="table">
+				<entry key="class" type="string" value="ElementObjective"/>
+				<entry key="editor_name" type="string" value="hgs_secure_loose_complete"/>
+				<entry key="id" type="number" value="100787"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="countdown" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="objective" type="string" value="hgs_secure_loose"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1331.95 -7030.08 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="state" type="string" value="complete"/>
+					<entry key="sub_objective" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="789" type="table">
+				<entry key="class" type="string" value="ElementWaypoint"/>
+				<entry key="editor_name" type="string" value="wp_find_escape"/>
+				<entry key="id" type="number" value="100789"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="icon" type="string" value="pd2_question"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="only_in_civilian" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-800 4100 -100"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="790" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="findEscapeArea"/>
+				<entry key="id" type="number" value="100790"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100789"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-800 4100 300"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="791" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="off"/>
+				<entry key="id" type="number" value="100791"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100790"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-800 4000 300"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="792" type="table">
+				<entry key="class" type="string" value="ElementOperator"/>
+				<entry key="editor_name" type="string" value="rmv_wp_find_escape"/>
+				<entry key="id" type="number" value="100792"/>
+				<entry key="module" type="string" value="CoreElementOperator"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100789"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="remove"/>
+					<entry key="position" type="vector3" value="-700 4100 300"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="793" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutputEvent"/>
+				<entry key="editor_name" type="string" value="found_sewer"/>
+				<entry key="id" type="number" value="100793"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="found"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_004"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="found"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_003"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="found"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_002"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="found"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100794"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-700 3900 300"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="794" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="foundEscapeArea"/>
+				<entry key="id" type="number" value="100794"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100791"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="100792"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-700 4000 300"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="795" type="table">
+				<entry key="class" type="string" value="ElementExperience"/>
+				<entry key="editor_name" type="string" value="xp_looseObj"/>
+				<entry key="id" type="number" value="100788"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="750"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1334.26 -6710.18 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="796" type="table">
+				<entry key="class" type="string" value="ElementExperience"/>
+				<entry key="editor_name" type="string" value="xp_foundPapers"/>
+				<entry key="id" type="number" value="100795"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="100"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-295.254 -6181.24 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="797" type="table">
+				<entry key="class" type="string" value="ElementExperience"/>
+				<entry key="editor_name" type="string" value="xp_l33tH4x0r"/>
+				<entry key="id" type="number" value="100796"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="250"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="992.254 -4989.27 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="798" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_006"/>
+				<entry key="id" type="number" value="100797"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100328"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="20"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-125 1050 450"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="42"/>
+				</entry>
+			</entry>
+			<entry index="799" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_006"/>
+				<entry key="id" type="number" value="100798"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100328"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-125 1050 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.848048 -0.529919"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
+			<entry index="800" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_007"/>
+				<entry key="id" type="number" value="100799"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100329"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-1275 300 250"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="26"/>
+				</entry>
+			</entry>
+			<entry index="801" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_007"/>
+				<entry key="id" type="number" value="100800"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100328"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-1275 300 200"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 0.529919 -0.848048"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
+			<entry index="802" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_008"/>
+				<entry key="id" type="number" value="100801"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100330"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-1550 675 275"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="-22"/>
+				</entry>
+			</entry>
+			<entry index="803" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_008"/>
+				<entry key="id" type="number" value="100802"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100330"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-1550 675 225"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.986286 0.165047"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
+			<entry index="804" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_009"/>
+				<entry key="id" type="number" value="100803"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100331"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-1500 900 300"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="35"/>
+				</entry>
+			</entry>
+			<entry index="805" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_009"/>
+				<entry key="id" type="number" value="100804"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100331"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-1500 900 250"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.224951 -0.97437"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
+			<entry index="806" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_010"/>
+				<entry key="id" type="number" value="100805"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100332"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-2350 1300 225"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="-35"/>
+				</entry>
+			</entry>
+			<entry index="807" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_010"/>
+				<entry key="id" type="number" value="100806"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100332"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-2350 1300 175"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.165047 -0.986286"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
+				</entry>
+			</entry>
+			<entry index="808" type="table">
+				<entry key="class" type="string" value="ElementSecurityCamera"/>
+				<entry key="editor_name" type="string" value="security_camera_011"/>
+				<entry key="id" type="number" value="100807"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="ai_enabled" type="boolean" value="true"/>
+					<entry key="apply_settings" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100333"/>
+					<entry key="detection_delay_max" type="number" value="3"/>
+					<entry key="detection_delay_min" type="number" value="2"/>
+					<entry key="detection_range" type="number" value="15"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="fov" type="number" value="83"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch" type="number" value="-41"/>
+					<entry key="position" type="vector3" value="-100 1300 275"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="suspicion_range" type="number" value="7"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw" type="number" value="33"/>
+				</entry>
+			</entry>
+			<entry index="809" type="table">
+				<entry key="class" type="string" value="ElementAccessCamera"/>
+				<entry key="editor_name" type="string" value="access_camera_011"/>
+				<entry key="id" type="number" value="100808"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_u_id" type="number" value="100333"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="pitch_limit" type="number" value="25"/>
+					<entry key="position" type="vector3" value="-100 1300 225"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.224951 -0.97437"/>
+					<entry key="text_id" type="string" value="debug_none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="yaw_limit" type="number" value="25"/>
 				</entry>
 			</entry>
 		</entry>

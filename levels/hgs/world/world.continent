@@ -18,7 +18,7 @@
 	</instances>
 	<statics>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/mockup/mockup" name_id="mockup_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100000"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/mockup/mockup" name_id="mockup_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100000"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1075 -375 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/bank/queue_pole/queue_pole_2" name_id="queue_pole_2_001" position="-1075 -425 0" rotation="0 0 -0.707107 -0.707107" unit_id="100031"/>
