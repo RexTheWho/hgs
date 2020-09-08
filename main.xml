@@ -168,18 +168,18 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="hgs">
+	<narrative contact="custom" id="hgs" jc="30">
 		<chain>
 			<table level_id="hgs" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="16000"/>
+			<value_node value="32000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
@@ -198,31 +198,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
+			<value_node value="20000"/>
 			<value_node value="30000"/>
-			<value_node value="50000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
+			<value_node value="40000"/>
+			<value_node value="70000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
 		</payout>
 	</narrative>
 </table>
