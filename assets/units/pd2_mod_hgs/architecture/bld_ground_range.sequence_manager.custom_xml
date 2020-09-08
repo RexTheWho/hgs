@@ -1,0 +1,89 @@
+<table>
+	<unit>
+	
+		<sequence editable_state="true" name="'disable_cap1'" triggable="true">
+			<object			enabled="false" name="'g_bld_ground_range_cap1'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap1'"/>
+			<body			enabled="false" name="'body_cap1'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door1'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door1'"/>
+			<body			enabled="true" name="'body_door1'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_cap2'" triggable="true">
+			<object			enabled="false" name="'g_bld_ground_range_cap2'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap2'"/>
+			<body			enabled="false" name="'body_cap2'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door2'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door2'"/>
+			<body			enabled="true" name="'body_door2'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_cap3'" triggable="true">
+			<object			enabled="false" name="'g_bld_ground_range_cap3'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap3'"/>
+			<body			enabled="false" name="'body_cap3'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door3'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door3'"/>
+			<body			enabled="true" name="'body_door3'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_cap4'" triggable="true">
+			<object			enabled="false" name="'g_bld_ground_range_cap4'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap4'"/>
+			<body			enabled="false" name="'body_cap4'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door4'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door4'"/>
+			<body			enabled="true" name="'body_door4'"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_all_caps'" triggable="true">
+			<object			enabled="false" name="'g_bld_ground_range_cap1'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap1'"/>
+			<body			enabled="false" name="'body_cap1'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door1'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door1'"/>
+			<body			enabled="true" name="'body_door1'"/>
+			<object			enabled="false" name="'g_bld_ground_range_cap2'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap2'"/>
+			<body			enabled="false" name="'body_cap2'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door2'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door2'"/>
+			<body			enabled="true" name="'body_door2'"/>
+			<object			enabled="false" name="'g_bld_ground_range_cap3'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap3'"/>
+			<body			enabled="false" name="'body_cap3'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door3'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door3'"/>
+			<body			enabled="true" name="'body_door3'"/>
+			<object			enabled="false" name="'g_bld_ground_range_cap4'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_cap4'"/>
+			<body			enabled="false" name="'body_cap4'"/>
+			<object			enabled="true" name="'g_bld_ground_range_door4'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_door4'"/>
+			<body			enabled="true" name="'body_door4'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_all_caps'" triggable="true">
+			<object			enabled="true" name="'g_bld_ground_range_cap1'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_cap1'"/>
+			<body			enabled="true" name="'body_cap1'"/>
+			<object			enabled="false" name="'g_bld_ground_range_door1'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_door1'"/>
+			<body			enabled="false" name="'body_door1'"/>
+			<object			enabled="true" name="'g_bld_ground_range_cap2'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_cap2'"/>
+			<body			enabled="true" name="'body_cap2'"/>
+			<object			enabled="false" name="'g_bld_ground_range_door2'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_door2'"/>
+			<body			enabled="false" name="'body_door2'"/>
+			<object			enabled="true" name="'g_bld_ground_range_cap3'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_cap3'"/>
+			<body			enabled="true" name="'body_cap3'"/>
+			<object			enabled="false" name="'g_bld_ground_range_door3'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_door3'"/>
+			<body			enabled="false" name="'body_door3'"/>
+			<object			enabled="true" name="'g_bld_ground_range_cap4'"/>
+			<decal_mesh		enabled="true" name="'g_bld_ground_range_cap4'"/>
+			<body			enabled="true" name="'body_cap4'"/>
+			<object			enabled="false" name="'g_bld_ground_range_door4'"/>
+			<decal_mesh		enabled="false" name="'g_bld_ground_range_door4'"/>
+			<body			enabled="false" name="'body_door4'"/>
+		</sequence>
+	</unit>
+</table>

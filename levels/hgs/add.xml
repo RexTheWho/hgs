@@ -39,6 +39,13 @@
 		<unit				path="units/pd2_mod_hgs/architecture/bld_fencewall_ext" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/architecture/bld_fencewall_ext" unload="true"/>
 		<model				path="units/pd2_mod_hgs/architecture/bld_fencewall_ext" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/bld_ground_range" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/bld_ground_range" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/bld_ground_range" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/architecture/bld_ground_range" unload="true"/>
 		
 		<unit				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/props/window_bars/window_bars" unload="true"/>
@@ -136,6 +143,12 @@
 		<model				path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
 		<material_config	path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_hgs/props/weapon_factory_pickup/weapon_factory_pickup" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
 		
 		<unit				path="units/pd2_mod_hgs/characters/civ_male_our_guy/civ_male_our_guy" unload="true" load="true"/>
 		<unit				path="units/pd2_mod_hgs/characters/civ_male_our_guy/civ_male_our_guy_husk" unload="true" load="true"/>

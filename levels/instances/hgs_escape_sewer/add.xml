@@ -1,0 +1,37 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<material_config	path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true"/>
+		<model				path="units/pd2_mod_hgs/architecture/bld_trench_doorway" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/basement_door/basement_door" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/basement_door/basement_door" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/basement_door/basement_door" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/basement_door/basement_door" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/basement_door/basement_door" unload="true"/>
+		<unit				path="units/pd2_mod_hgs/props/basement_door/basement_door_debris" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/basement_door/basement_door_debris" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/basement_door/basement_door_debris" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/basement_door/basement_door_debris" unload="true"/>
+		
+		<unit				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<model				path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" unload="true"/>
+	</add>
+
+	<!--EXTRACT LOADED DO NOT TWEAK-->
+	<!--Used by: units/pd2_mod_hgs/props/basement_door/basement_door -->
+<!-- 	<add path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once" type="unit">
+		<unit				path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once" unload="true"/>
+		<object				path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config	path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager	path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+	</add> -->
+</table>

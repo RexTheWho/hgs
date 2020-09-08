@@ -1,0 +1,41 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/architecture/bld_trench_doorway" name_id="bld_trench_doorway_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="65 186 2" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/world/props/suburbia_manhole/suburbia_manhole" name_id="suburbia_manhole_001" position="65 186 2" rotation="0 0 1 4.37114e-008" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-55 5 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/pd2_mod_hgs/props/basement_door/basement_door" name_id="basement_door_001" position="-55 5 0" rotation="0 0 0.707107 -0.707107" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show" name="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" name_id="escape_secure_goal_marker_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 25 250" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on" name_id="ind_ext_prop_lamp_02_on_001" position="0 25 250" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 50 250" _prev_rot="0.92388 0 0 -0.382683" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/lights/light_spot_shadow_projection_01/light_spot_shadow_projection_01" name_id="light_spot_shadow_projection_01_001" only_visible_in_editor="true" position="0 50 250" projection_light="ls_spot" rotation="0.92388 0 0 -0.382683" unit_id="100005">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="450" multiplier="@ID748ce7d9371994d6@" name="ls_spot" near_range="0" spot_angle_end="150.285" spot_angle_start="43"/>
+				</lights>
+				<projection_lights>
+					<ls_spot x="128" y="128"/>
+				</projection_lights>
+				<projection_textures ls_spot="units/lights/spot_light_projection_textures/spotprojection_03_square_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-50 -100 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" only_visible_in_editor="true" position="-50 -50 0" rotation="-0 0 -0 -1" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200 0 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_4x4m_a" name_id="ind_ext_4x4m_a_001" position="-200 0 -1400" rotation="0 0 0.707107 -0.707107" unit_id="100007"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

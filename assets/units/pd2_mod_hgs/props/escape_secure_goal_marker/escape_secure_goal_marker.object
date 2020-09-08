@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" orientation_object="rp_prop_escape_marker" />
+	<sequence_manager file="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" />
+	<bodies>
+		<body name="body_static" enabled="true" template="editor">
+			<object name="c_prop_escape_marker" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_grp" enabled="true" >
+			<object name="g_prop_escape_marker" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

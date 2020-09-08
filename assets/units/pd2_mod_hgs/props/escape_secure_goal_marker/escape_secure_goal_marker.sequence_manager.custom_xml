@@ -1,0 +1,10 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<graphic_group name="'grp_grp'" visibility="false" />
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<graphic_group name="'grp_grp'" visibility="true" />
+		</sequence>
+	</unit>
+</table>
