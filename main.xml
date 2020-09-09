@@ -196,7 +196,10 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="hgs" jc="30">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_hgs/gui/crimenet/hgs"/>
+	</AddFiles>
+	<narrative contact="custom" id="hgs" jc="30" icon="units/pd2_mod_hgs/gui/crimenet/hgs">
 		<chain>
 			<table level_id="hgs" type="d" type_id="heist_type_assault"/>
 		</chain>
