@@ -2,22 +2,12 @@
 	<diesel materials="units/pd2_mod_hgs/architecture/architecture" orientation_object="rp_bld_ground_rear" />
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
-			<!-- <object name="c_bld_ground_rear_001" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_002" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_003" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_004" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_005" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_006" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_007" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_008" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_009" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_010" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_011" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_012" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_013" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_014" collision_type="box" padding="-2.5" /> -->
-			<!-- <object name="c_bld_ground_rear_015" collision_type="box" padding="-2.5" /> -->
-			<object name="g_bld_ground_rear" collision_type="mesh_mopp" />
+			<object name="c_bld_ground_rear_001" collision_type="box" padding="-2.5" />
+			<object name="c_bld_ground_rear_002" collision_type="box" padding="-2.5" />
+			<object name="c_bld_ground_rear_003" collision_type="box" padding="-2.5" />
+			<object name="c_bld_ground_rear_004" collision_type="box" padding="-2.5" />
+			<object name="c_bld_ground_rear_005" collision_type="box" padding="-2.5" />
+			<object name="c_bld_ground_rear_006" collision_type="box" padding="-2.5" />
 		</body>
 	</bodies>
 	<decal_surfaces>

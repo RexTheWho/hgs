@@ -158,8 +158,13 @@
         <diffuse_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_df"/>
         <opacity_texture file="units/pd2_dlc_bex/architecture/ext/ext_textures/bex_ext_decal_bottom_mask" />
     </material>
+    <material name="mat_tiremudmarks" render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:SIMPLE_TINT" version="2">
+        <diffuse_texture		file="units/pd2_dlc_peta/terrain/pta_road_dirt_df"/>
+        <opacity_texture		file="units/pd2_dlc_peta/terrain/pta_road_dirt_mask"/>
+        <bump_normal_texture	file="units/pd2_dlc_peta/terrain/pta_road_dirt_nm"/>
+        <variable value="2 2 2" type="vector3" name="tint_color"/>
+    </material>
 	
 </materials>
-
 
 

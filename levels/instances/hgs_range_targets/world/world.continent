@@ -1,0 +1,21 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 0.5" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_1" name_id="target_001" position="0 0 0.5" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 1" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_2" name_id="target_002" position="0 0 1" rotation="-0 0 -0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 1.5" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_3" name_id="target_003" position="0 0 1.5" rotation="-0 0 -0 -1" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_4" name_id="target_004" position="0 0 0" rotation="0 0 0 -1" unit_id="100003"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

@@ -1,0 +1,36 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'start'" triggable="true">
+			<animation_group enabled="true" end_time="18/30" name="'anim_rotation'" speed="1" time="0/30"/>
+			<body enabled="true" name="'head_1'"/>
+			<body enabled="true" name="'body_1'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hit'" triggable="true">
+			<animation_group enabled="true" end_time="35/30" name="'anim_rotation'" speed="1" time="21/30"/>
+			<body enabled="false" name="'head_1'"/>
+			<body enabled="false" name="'body_1'"/>
+			<set_damage bullet="0"/>
+			<run_sequence name="'done'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'stop'" triggable="true">
+			<animation_group enabled="true" end_time="35/30" name="'anim_rotation'" speed="1" time="21/30"/>
+			<body enabled="false" name="'head_1'"/>
+			<body enabled="false" name="'body_1'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'done'" triggable="true"/>
+		
+		<body name="'head_1'">
+			<endurance bullet="1">
+				<run_sequence name="'hit'"/>
+			</endurance>
+		</body>
+		<body name="'body_1'">
+			<endurance bullet="4">
+				<run_sequence name="'hit'"/>
+			</endurance>
+		</body>
+	</unit>
+</table>

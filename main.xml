@@ -103,6 +103,25 @@
 			<value_node value="levels/instances/unique/wwh/wwh_garage_door/world/world"/>
 		</packages>
 	</instance>
+	<instance id="hgs_range_targets">
+		<add file="levels/instances/hgs_range_targets/add.xml"/>
+		<include directory="levels/instances/hgs_range_targets">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
@@ -166,6 +185,7 @@
 			<value_node value="levels/narratives/bain/shadow_raid/out/out"/>
 			<value_node value="levels/narratives/bain/help/collision/collision"/>
 			<value_node value="levels/narratives/locke/vit/collision/collision"/>
+			<value_node value="levels/instances/unique/chill/wick_kill_room/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
