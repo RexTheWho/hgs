@@ -2788,6 +2788,9 @@
 		<table>
 			<unit_data _prev_pos="-2433.95 3698.42 -0.045085" _prev_rot="-0.0408027 0.0251938 0.968701 0.243555" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_080" position="-2431.73 3698.87 -19.0155" rotation="-0.0408027 0.0251938 0.968701 0.243555" unit_id="100882"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="2000 8000 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" name_id="mkp_int_floor_2x2m_a_004" position="2000 8000 0" rotation="0 0 0 -1" unit_id="100879"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
