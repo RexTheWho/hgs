@@ -79,7 +79,6 @@
 		<value_node value="858 287 -400"/>
 		<value_node value="589 721 400"/>
 		<value_node value="-77 611 811"/>
-		<value_node value="658 -779 0"/>
 		<value_node value="-319 973 0"/>
 		<value_node value="-495 -243 871"/>
 		<value_node value="894 336 400"/>
@@ -96,6 +95,7 @@
 		<value_node value="650 904 1"/>
 		<value_node value="893 552 400"/>
 		<value_node value="-323 -1092 0"/>
+		<value_node value="434 -1057 0"/>
 		<value_node value="898 649 -300"/>
 		<value_node value="-531 -519 876"/>
 		<value_node value="-374 1087 0"/>
@@ -112,7 +112,6 @@
 		<value_node value="-973 742 0"/>
 		<value_node value="-908 -823 0"/>
 		<value_node value="-1203 -305 0"/>
-		<value_node value="339 -1203 0"/>
 		<value_node value="692 1051 0"/>
 		<value_node value="-912 136 870"/>
 		<value_node value="-1185 459 0"/>
@@ -130,6 +129,7 @@
 		<value_node value="-570 -1202 0"/>
 		<value_node value="1306 273 0"/>
 		<value_node value="868 1045 0"/>
+		<value_node value="939 -984 0"/>
 		<value_node value="-1059 131 849"/>
 		<value_node value="-1190 -675 0"/>
 		<value_node value="-1095 -823 0"/>
@@ -142,9 +142,11 @@
 		<value_node value="-274 1100 839"/>
 		<value_node value="-999 996 0"/>
 		<value_node value="1090 921 0"/>
+		<value_node value="1238 -733 0"/>
 		<value_node value="-823 -1197 0"/>
 		<value_node value="-1257 -608 400"/>
 		<value_node value="-408 1105 858"/>
+		<value_node value="1385 -471 0"/>
 		<value_node value="-482 -1385 0"/>
 		<value_node value="-960 -719 863"/>
 		<value_node value="1356 640 0"/>
@@ -180,6 +182,7 @@
 		<value_node value="-1306 768 813"/>
 		<value_node value="-1620 -438 400"/>
 		<value_node value="-1546 669 400"/>
+		<value_node value="1280 -1167 0"/>
 		<value_node value="-1661 363 400"/>
 		<value_node value="854 1530 0"/>
 		<value_node value="-1067 1104 848"/>
@@ -190,6 +193,7 @@
 		<value_node value="-1266 -1007 819"/>
 		<value_node value="264 1798 0"/>
 		<value_node value="112 -1819 0"/>
+		<value_node value="1133 -1429 0"/>
 		<value_node value="-472 1763 0"/>
 		<value_node value="-1556 995 0"/>
 		<value_node value="-1771 550 0"/>
@@ -397,6 +401,10 @@
 		<value_node value="-2284 5102 -400"/>
 	</positions>
 	<rotations>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
+		<value_node value="0"/>
 		<value_node value="0"/>
 		<value_node value="0"/>
 		<value_node value="0"/>

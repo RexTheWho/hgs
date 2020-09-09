@@ -122,6 +122,9 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_hgs/gui/crimenet/hgs"/>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
@@ -196,10 +199,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AddFiles directory="assets">
-		<texture force="true" load="true" path="units/pd2_mod_hgs/gui/crimenet/hgs"/>
-	</AddFiles>
-	<narrative contact="custom" id="hgs" jc="30" icon="units/pd2_mod_hgs/gui/crimenet/hgs">
+	<narrative contact="custom" icon="units/pd2_mod_hgs/gui/crimenet/hgs" id="hgs" jc="30">
 		<chain>
 			<table level_id="hgs" type="d" type_id="heist_type_assault"/>
 		</chain>

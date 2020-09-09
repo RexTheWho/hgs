@@ -191,4 +191,10 @@
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
 	</add>
+	<!--Used by map attention elements -->
+	<add path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" type="unit">
+		<unit path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+		<object path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+		<material_config path="units/dev_tools/level_tools/ai_attention_object/ai_attention_object" unload="true"/>
+	</add>
 </table>
