@@ -3234,7 +3234,7 @@
 					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="0.1"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="chance_inc" type="number" value="0.1"/>
+					<entry key="chance_inc" type="number" value="0.15"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="followup_elements" type="table">
@@ -8572,7 +8572,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-646.272 1200 197.039"/>
+					<entry key="position" type="vector3" value="-691.823 1483.5 2.98023e-006"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -11060,7 +11060,7 @@
 					<entry key="attitude" type="string" value="avoid"/>
 					<entry key="base_chance" type="number" value="0.1"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="chance_inc" type="number" value="0.1"/>
+					<entry key="chance_inc" type="number" value="0.2"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="followup_elements" type="table">
@@ -16483,7 +16483,7 @@
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="chance" type="number" value="20"/>
+					<entry key="chance" type="number" value="5"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -16528,13 +16528,13 @@
 			</entry>
 			<entry index="534" type="table">
 				<entry key="class" type="string" value="ElementLogicChanceOperator"/>
-				<entry key="editor_name" type="string" value="add_10_chance"/>
+				<entry key="editor_name" type="string" value="add_chance"/>
 				<entry key="id" type="number" value="100549"/>
 				<entry key="module" type="string" value="CoreElementLogicChance"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="chance" type="number" value="20"/>
+					<entry key="chance" type="number" value="25"/>
 					<entry key="elements" type="table">
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
@@ -26520,7 +26520,7 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="none"/>
-					<entry key="position" type="vector3" value="-679.041 1364.67 2.98023e-006"/>
+					<entry key="position" type="vector3" value="-614.852 1474.58 2.98023e-006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>

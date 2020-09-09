@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="bld_main_ext.glb" type="gltf" create_objects="true"/>
+</modelscript>
