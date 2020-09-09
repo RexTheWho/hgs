@@ -12,7 +12,7 @@
 			<unit_data _prev_pos="-55 5 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/pd2_mod_hgs/props/basement_door/basement_door" name_id="basement_door_001" position="-55 5 0" rotation="0 0 0.707107 -0.707107" unit_id="100002"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show" name="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" name_id="escape_secure_goal_marker_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100003"/>
+			<unit_data _prev_pos="0 0 5" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show" name="units/pd2_mod_hgs/props/escape_secure_goal_marker/escape_secure_goal_marker" name_id="escape_secure_goal_marker_001" position="0 0 5" rotation="-0 0 -0 -1" unit_id="100003"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 25 250" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on" name_id="ind_ext_prop_lamp_02_on_001" position="0 25 250" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100004"/>

@@ -173,6 +173,8 @@
 		<material_config	path="units/pd2_mod_hgs/characters/civ_male_our_guy/civ_male_our_guy_contour" unload="true"/>
 	</add>
 	
+	<!-- REEEEE -->
+	<!-- <texture path="levels/mods/hgs/cube_lights/dome_occlusion"/> -->
 	<texture path="levels/mods/hgs/cube_lights/100224"/>
 	<texture path="levels/mods/hgs/cube_lights/100226"/>
 	<texture path="levels/mods/hgs/cube_lights/100228"/>
