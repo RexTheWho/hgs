@@ -32,9 +32,6 @@
 			<unit_data _prev_pos="-50 -100 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" only_visible_in_editor="true" position="-50 -50 0" rotation="-0 0 -0 -1" unit_id="100006"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-200 0 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" hide_on_projection_light="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_4x4m_a" name_id="ind_ext_4x4m_a_001" position="-200 0 -1400" rotation="0 0 0.707107 -0.707107" unit_id="100007"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-250 -10 1" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_sidewalk_curb_edge_5m" name_id="str_ext_road_sidewalk_curb_edge_5m_001" position="-250 -10 1" rotation="-0 0 -0 -1" unit_id="100008"/>
 		</table>
 	</statics>

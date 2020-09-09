@@ -26957,6 +26957,49 @@
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
+			<entry index="879" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutputEvent"/>
+				<entry key="editor_name" type="string" value="escaped"/>
+				<entry key="id" type="number" value="100878"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="escaped"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_004"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="event" type="string" value="escaped"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_003"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="event" type="string" value="escaped"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_002"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="event" type="string" value="escaped"/>
+							<entry key="instance" type="string" value="hgs_escape_sewer_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100431"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100515"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1923.52 -4188.9 2002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="hgs_bunkerdoor_001"/>
