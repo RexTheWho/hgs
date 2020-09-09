@@ -280,7 +280,6 @@
 		<value_node value="-592 2481 0"/>
 		<value_node value="-2532 313 0"/>
 		<value_node value="-2514 459 0"/>
-		<value_node value="-2072 -1521 0"/>
 		<value_node value="-1718 -1923 0"/>
 		<value_node value="461 2542 3"/>
 		<value_node value="-171 2579 0"/>
@@ -289,6 +288,7 @@
 		<value_node value="46 2611 0"/>
 		<value_node value="-42 2631 0"/>
 		<value_node value="1419 2244 0"/>
+		<value_node value="-2137 -1598 0"/>
 		<value_node value="-2297 1412 0"/>
 		<value_node value="543 2658 -17"/>
 		<value_node value="-871 2579 0"/>

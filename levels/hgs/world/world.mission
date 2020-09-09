@@ -2397,10 +2397,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="30"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-3100 2800 0"/>
+					<entry key="position" type="vector3" value="-3096.27 2814.53 14.321"/>
 					<entry key="preferred_spawn_groups" type="table">
 						<entry index="1" type="string" value="tac_shield_wall_charge"/>
 						<entry index="2" type="string" value="FBI_spoocs"/>
@@ -2560,7 +2560,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="30"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="1386.7 4296.37 45.4427"/>
