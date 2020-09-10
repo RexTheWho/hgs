@@ -2896,6 +2896,30 @@
 		<table>
 			<unit_data _prev_pos="-175 1175 225" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_posters/gen_prop_plate_b" name_id="gen_prop_plate_b_001" position="-175 1175 225" rotation="0 0 0.707107 -0.707107" unit_id="100916"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-450 -1150 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_001" position="-450 -1050 0" rotation="0 0 0 -1" unit_id="100917"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-950 -1350 0" _prev_rot="0 0 0 -1" continent="world" local_pos="250 0 0" local_rot="-0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_002" position="-950 -1350 0" rotation="0 0 0 -1" unit_id="100918"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1450 -350 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_004" position="-1350 -350 400" rotation="0 0 0.707107 -0.707107" unit_id="100920"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1350 -350 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_005" position="-950 -350 400" rotation="0 0 0.707107 -0.707107" unit_id="100921"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-450 -1350 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_006" position="-450 -1350 0" rotation="0 0 1 4.37114e-008" unit_id="100922"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1450 -1350 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_007" position="-1450 -1350 0" rotation="0 0 -1 4.37114e-008" unit_id="100923"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1450 -1050 0" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 300 0" local_rot="-0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_008" position="-1450 -1050 0" rotation="0 0 0 -1" unit_id="100924"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-950 -1050 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_hgs/props/display_table/display_table" name_id="display_table_009" position="-950 -1050 0" rotation="0 0 -1 4.37114e-008" unit_id="100925"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

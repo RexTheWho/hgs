@@ -1,0 +1,27 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'crk'" triggable="true" once="true">
+			<object name="'g_glass1'" enabled="false" />
+			<object name="'g_glass2'" enabled="true" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'sht'" triggable="true" once="true">
+			<body enabled="true" name="'body_glass'"/>
+			<decal_mesh name="'g_glass1'" enabled="false" />
+			<object name="'g_glass1'" enabled="false" />
+			<object name="'g_glass2'" enabled="false" />
+			<effect align="e_glass" name="'effects/payday2/particles/window/storefront_window_small'" parent="'e_glass'"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass'"/>
+		</sequence>
+		
+		<body name="'body_glass'">
+			<endurance bullet="1" melee="1" explosion="1">
+				<run_sequence name="'crk'"/>
+			</endurance>
+			<endurance bullet="2" melee="1" explosion="2">
+				<run_sequence name="'crk'"/>
+				<run_sequence name="'sht'"/>
+			</endurance>
+		</body>
+	</unit>
+</table>
