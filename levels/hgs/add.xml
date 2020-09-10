@@ -5,6 +5,11 @@
 		<object				path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
 		<model				path="units/pd2_mod_hgs/mockup/mockup" unload="true"/>
 		
+		<unit				path="units/pd2_mod_hgs/occluder/occluder" unload="true" load="true"/>
+		<object				path="units/pd2_mod_hgs/occluder/occluder" unload="true"/>
+		<model				path="units/pd2_mod_hgs/occluder/occluder" unload="true"/>
+		<material_config	path="units/pd2_mod_hgs/occluder/occluder" unload="true"/>
+		
 		<material_config	path="units/pd2_mod_hgs/architecture/architecture" unload="true"/>
 		<unit				path="units/pd2_mod_hgs/architecture/tunnel" unload="true" load="true"/>
 		<object				path="units/pd2_mod_hgs/architecture/tunnel" unload="true"/>

@@ -1209,7 +1209,7 @@
 			<unit_data _prev_pos="-2250 1200 325" _prev_rot="0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_b" name_id="com_ext_parking_garage_decal_leak_b_007" position="-2228 1200 295" rotation="0.5 0.5 0.5 -0.5" unit_id="100410"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/architecture/bld_ground_rear" name_id="bld_ground_rear_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100413"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/architecture/bld_ground_rear" name_id="bld_ground_rear_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100413"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1100 400 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_mechanical_powerbox/str_prop_mechanical_powerbox_b" name_id="str_prop_mechanical_powerbox_b_002" position="1100 600 0" rotation="0 0 -0.707107 -0.707107" unit_id="100418"/>
@@ -1949,7 +1949,7 @@
 			<unit_data _prev_pos="170.583 2918.61 5.25324" _prev_rot="0 0 -0.0697565 -0.997564" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/desert/des_cov_sandbag_wall_high/des_cov_sandbag_wall_high" name_id="des_cov_sandbag_wall_high_040" position="170.583 2918.61 5.25324" rotation="0 0 -0.0697565 -0.997564" unit_id="100627"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_all_caps" name="units/pd2_mod_hgs/architecture/bld_ground_range" name_id="bld_ground_range_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100485"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_all_caps" name="units/pd2_mod_hgs/architecture/bld_ground_range" name_id="bld_ground_range_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100485"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="226.997 2921.4 2.59584" _prev_rot="0 -0.199368 0 -0.979925" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_018" position="226.997 2921.4 2.59584" rotation="0 -0.199368 0 -0.979925" unit_id="100486"/>
@@ -2832,6 +2832,60 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1400 870 -10" _prev_rot="-4.94827e-009 0.113203 0.993572 -4.34304e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_64" name_id="urban_bush_angled_128_016" position="-1400 867.975 -18.7693" rotation="-4.9483e-009 0.113203 0.993572 -4.34304e-008" unit_id="100895"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1410 4375 -225" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="960 -340 2.97237e-005" local_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_corner_02" name_id="mad_prop_labpipe_thick_corner_02_001" position="-1410 4375 -1150" rotation="0.707107 0 0 -0.707107" unit_id="100896"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1400 4375 -225" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="950 -340 2.97237e-005" local_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="mad_prop_labpipe_thick_corner_02_002" position="-1400 4375 -1150" rotation="0.707107 0 0 -0.707107" unit_id="100897"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1425 4390 -225" _prev_rot="-3.55271e-015 0 1 -4.37114e-008" continent="world" local_pos="975 -325 2.84124e-005" local_rot="-1 7.10543e-015 -3.55271e-015 -4.37114e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="mad_prop_labpipe_thick_corner_02_003" position="-1425 4390 -1150" rotation="-3.55271e-015 0 1 -4.37114e-008" unit_id="100899"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1415 4390 -225" _prev_rot="-3.55271e-015 6.31089e-030 1 -4.37114e-008" continent="world" local_pos="965 -325 2.84124e-005" local_rot="-1 7.10543e-015 -3.55271e-015 -4.37114e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_corner_02" name_id="mad_prop_labpipe_thick_corner_02_004" position="-1415 4390 -1150" rotation="3.55271e-015 0 -1 4.37114e-008" unit_id="100900"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1465 4350 -225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="1015 -365 3.19093e-005" local_rot="0.707107 0.707107 -3.09086e-008 3.09086e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="mad_prop_labpipe_thick_corner_02_004" position="-1465 4350 -1150" rotation="0 0 -0.707107 -0.707107" unit_id="100901"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1360 4375 -275" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="910 -340 50" local_rot="0.5 0.5 0.5 -0.5" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_2m" name_id="mad_prop_labpipe_thick_corner_02_003" position="-1360 4375 -1200" rotation="0.5 -0.5 -0.5 -0.5" unit_id="100898"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-425 4725 -225" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-25 10 -8.74228e-007" local_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="escSewerJunk004" position="-425 4725 -1150" rotation="0.707107 0 0 -0.707107" unit_id="100902"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-435 4725 -225" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-15 10 -8.74228e-007" local_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_corner_02" name_id="escSewerJunk005" position="-435 4725 -1150" rotation="0.707107 0 0 -0.707107" unit_id="100903"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-385 4725 -275" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="-65 10 50" local_rot="0.5 0.5 0.5 -0.5" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_2m" name_id="escSewerJunk006" position="-385 4725 -1200" rotation="0.5 -0.5 -0.5 -0.5" unit_id="100904"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-450 4715 -225" _prev_rot="-4.37114e-008 1 -4.37114e-008 1.91069e-015" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="escSewerJunk002" position="-450 4715 -1150" rotation="-4.37114e-008 1 -4.37114e-008 1.91069e-015" unit_id="100905"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-440 4715 -225" _prev_rot="4.37114e-008 1 4.37114e-008 1.91069e-015" continent="world" local_pos="-10 -8.74228e-007 7.64274e-014" local_rot="-8.74228e-008 0 8.74228e-008 1" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_corner_02" name_id="escSewerJunk001" position="-440 4715 -1150" rotation="4.37114e-008 1 4.37114e-008 1.91069e-015" unit_id="100906"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-490 4765 -225" _prev_rot="0.707107 0.707107 3.09086e-008 3.09086e-008" continent="world" local_pos="40 50 -4.37114e-006" local_rot="-6.18172e-008 -1.35106e-015 0.707107 0.707107" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_1m" name_id="escSewerJunk003" position="-490 4765 -1150" rotation="0.707107 0.707107 3.09086e-008 3.09086e-008" unit_id="100907"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-385 4725 -400" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="-65 10 175" local_rot="0.5 0.5 0.5 -0.5" material="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" material_variation="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_blue" mesh_variation="" name="units/pd2_dlc_mad/props/mad_prop_lab_pipeset/mad_prop_labpipe_thick_mount" name_id="escSewerJunk005" position="-385 4725 -1325" rotation="0.5 -0.5 -0.5 -0.5" unit_id="100908"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-450 4715 -1165" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_b" name_id="com_ext_parking_garage_decal_leak_b_015" position="-450 4715 -1165" rotation="0 0.707107 0 -0.707107" unit_id="100909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-203.688 4231.85 -397.919" _prev_rot="-0.657306 0.0464166 0.170532 -0.732608" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_2" name_id="gen_prop_target_practice_2_001" position="-207.998 4233.56 -395.181" rotation="-0.657306 0.0464167 0.170532 -0.732607" unit_id="100912"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1939.78 4515.04 -392.372" _prev_rot="-0.430109 0.512584 0.477684 -0.569282" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_3" name_id="gen_prop_target_practice_3_001" position="-1939.78 4515.04 -392.372" rotation="-0.430109 0.512584 0.477684 -0.569282" unit_id="100913"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-139.049 4241.17 -389.934" _prev_rot="-0.534277 0.329778 -0.372304 -0.683509" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/props/gen_prop_target_practice/gen_prop_target_practice_4" name_id="gen_prop_target_practice_4_001" position="-139.049 4241.17 -389.934" rotation="-0.534277 0.329778 -0.372304 -0.683509" unit_id="100914"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_hgs/occluder/occluder" name_id="occluder_001" only_visible_in_editor="true" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100910"/>
 		</table>
 	</statics>
 	<values>

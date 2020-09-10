@@ -6471,11 +6471,13 @@
 	</entry>
 	<entry key="nav_segments" type="table">
 		<entry index="1" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="3" type="table">
 					<entry index="1" type="number" value="748"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 				<entry index="4" type="table">
 					<entry index="1" type="number" value="294"/>
 				</entry>
@@ -6523,8 +6525,7 @@
 			</entry>
 		</entry>
 		<entry index="3" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="1" type="table">
 					<entry index="1" type="number" value="748"/>
 				</entry>
@@ -6538,19 +6539,24 @@
 					<entry index="1" type="number" value="743"/>
 				</entry>
 			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
+			</entry>
 			<entry key="pos" type="vector3" value="-2066.53 911.143 0"/>
 			<entry key="vis_groups" type="table">
 				<entry index="1" type="number" value="3"/>
 			</entry>
 		</entry>
 		<entry index="4" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="5" type="table">
+					<entry index="1" type="number" value="139"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="1" type="table">
 					<entry index="1" type="number" value="294"/>
-				</entry>
-				<entry index="5" type="table">
-					<entry index="1" type="number" value="139"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="-579.922 -518.228 0"/>
@@ -6559,11 +6565,13 @@
 			</entry>
 		</entry>
 		<entry index="5" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="4" type="table">
 					<entry index="1" type="number" value="139"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 				<entry index="17" type="table">
 					<entry index="1" type="number" value="78"/>
 				</entry>
@@ -6620,6 +6628,11 @@
 			</entry>
 		</entry>
 		<entry index="9" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="20" type="table">
+					<entry index="1" type="number" value="19"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="13" type="table">
@@ -6652,9 +6665,6 @@
 					<entry index="3" type="number" value="89"/>
 					<entry index="4" type="number" value="91"/>
 					<entry index="5" type="number" value="90"/>
-				</entry>
-				<entry index="20" type="table">
-					<entry index="1" type="number" value="19"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="199.944 -225.319 -400"/>
@@ -6792,11 +6802,13 @@
 			</entry>
 		</entry>
 		<entry index="17" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="3" type="table">
 					<entry index="1" type="number" value="751"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 				<entry index="5" type="table">
 					<entry index="1" type="number" value="78"/>
 				</entry>
@@ -6866,11 +6878,13 @@
 			</entry>
 		</entry>
 		<entry index="20" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="9" type="table">
 					<entry index="1" type="number" value="19"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 				<entry index="19" type="table">
 					<entry index="1" type="number" value="126"/>
 					<entry index="2" type="number" value="127"/>
@@ -7058,6 +7072,11 @@
 			</entry>
 		</entry>
 		<entry index="31" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="3" type="table">
+					<entry index="1" type="number" value="815"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="2" type="table">
@@ -7066,9 +7085,6 @@
 					<entry index="3" type="number" value="808"/>
 					<entry index="4" type="number" value="795"/>
 					<entry index="5" type="number" value="828"/>
-				</entry>
-				<entry index="3" type="table">
-					<entry index="1" type="number" value="815"/>
 				</entry>
 				<entry index="32" type="table">
 					<entry index="1" type="number" value="813"/>
@@ -7108,11 +7124,13 @@
 			</entry>
 		</entry>
 		<entry index="32" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="3" type="table">
 					<entry index="1" type="number" value="743"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 				<entry index="31" type="table">
 					<entry index="1" type="number" value="813"/>
 					<entry index="2" type="number" value="814"/>
@@ -7400,6 +7418,13 @@
 			</entry>
 		</entry>
 		<entry index="49" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="63" type="table">
+					<entry index="1" type="number" value="1578"/>
+					<entry index="2" type="number" value="1584"/>
+					<entry index="3" type="number" value="1586"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="50" type="table">
@@ -7436,11 +7461,6 @@
 					<entry index="9" type="number" value="1473"/>
 					<entry index="10" type="number" value="1468"/>
 				</entry>
-				<entry index="63" type="table">
-					<entry index="1" type="number" value="1578"/>
-					<entry index="2" type="number" value="1584"/>
-					<entry index="3" type="number" value="1586"/>
-				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="-117.491 4084.32 -397.559"/>
 			<entry key="vis_groups" type="table">
@@ -7472,15 +7492,17 @@
 			</entry>
 		</entry>
 		<entry index="51" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="65" type="table">
+					<entry index="1" type="number" value="1524"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="50" type="table">
 					<entry index="1" type="number" value="1540"/>
 					<entry index="2" type="number" value="1517"/>
 					<entry index="3" type="number" value="1518"/>
-				</entry>
-				<entry index="65" type="table">
-					<entry index="1" type="number" value="1524"/>
 				</entry>
 				<entry index="67" type="table">
 					<entry index="1" type="number" value="1558"/>
@@ -7689,13 +7711,15 @@
 			</entry>
 		</entry>
 		<entry index="63" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="49" type="table">
 					<entry index="1" type="number" value="1578"/>
 					<entry index="2" type="number" value="1584"/>
 					<entry index="3" type="number" value="1586"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 			</entry>
 			<entry key="pos" type="vector3" value="551.866 5112.02 -400"/>
 			<entry key="vis_groups" type="table">
@@ -7703,11 +7727,13 @@
 			</entry>
 		</entry>
 		<entry index="65" type="table">
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="51" type="table">
 					<entry index="1" type="number" value="1524"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 			</entry>
 			<entry key="pos" type="vector3" value="-332.374 4594.13 -400"/>
 			<entry key="vis_groups" type="table">
